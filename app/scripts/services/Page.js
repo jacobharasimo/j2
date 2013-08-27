@@ -5,7 +5,6 @@ angular.module('j2App')
         var MenuOpen = false;
 
 
-
         return {
             MenuOpen: function () {
                 return MenuOpen;

@@ -4,8 +4,24 @@ angular.module('j2App', ['ngRoute', 'ngAnimate', 'ngResource'])
     .config(function ($routeProvider) {
         $routeProvider
             .when('/', {
-                templateUrl: 'views/main.html',
-                controller: 'MainCtrl'
+                templateUrl: 'views/myWork.html',
+                controller: 'MyWorkCtrl'
+            })
+            .when('/MyClients', {
+                templateUrl: 'views/myClients.html',
+                controller: 'MyClientsCtrl'
+            })
+            .when('/MyWork', {
+                templateUrl: 'views/myWork.html',
+                controller: 'MyWorkCtrl'
+            })
+            .when('/MyLanguages', {
+                templateUrl: 'views/myLanguages.html',
+                controller: 'MyLanguagesCtrl'
+            })
+            .when('/MyHistory', {
+                templateUrl: 'views/myHistory.html',
+                controller: 'MyHistoryCtrl'
             })
             .otherwise({
                 redirectTo: '/'

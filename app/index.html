@@ -28,17 +28,18 @@
       <script src="bower_components/es5-shim/es5-shim.js"></script>
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
+    <!--header area and desktop navigation-->
     <header id="header" class="row">
         <div class="four columns phone-two">
-            <h1 id="site-title"><a href="http://zurb.com/playground/">ZURB</a></h1>
+            <h1 id="site-title"><a href="#">Jacob</a></h1>
         </div>
         <div class="eight columns phone-two">
             <nav id="menu" role="navigation" class="hide-for-small">
                 <ul id="mainNav" class="nav-bar">
-                    <li><a href="">One</a></li>
-                    <li><a href="">Two</a></li>
-                    <li><a href="">Three</a></li>
-                    <li><a href="">Four</a></li>
+                    <li><a href="#MyWork">My Work</a></li>
+                    <li><a href="#MyClients">My Clients</a></li>
+                    <li><a href="#MyLanguages">My Languages</a></li>
+                    <li><a href="#MyHistory">My History</a></li>
                 </ul>
             </nav>
             <p class="show-for-small">
@@ -46,11 +47,28 @@
             </p>
         </div>
     </header>
+    <!--This is the side nav show on mobile-->
+    <section id="sidebar" role="complementary">
+        <nav id="sideMenu" role="navigation">
+            <ul id="sideMainNav" class="nav-bar">
+                <li><a href="#MyWork">My Work</a></li>
+                <li><a href="#MyClients">My Clients</a></li>
+                <li><a href="#MyLanguages">My Languages</a></li>
+                <li><a href="#MyHistory">My History</a></li>
+            </ul>
+        </nav>
+    </section>
     <!-- Add your site or application content here -->
     <div class="container" ng-view=""></div>
+    <!--Footer Area with contact links-->
     <footer class="site-footer row" role="contentinfo">
         <div class="twelve columns">
-            Created by ZURB for Foundation 3, based on code from Jason Weaver and Luke Wroblewski
+            <ul class="block-grid">
+                <li>GMAIL</li>
+                <li>Facebook</li>
+                <li>Gplus</li>
+                <li>LinkedIn</li>
+            </ul>
         </div>
     </footer>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
@@ -90,10 +108,12 @@
 
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/MyWork.js"></script>
         <script src="scripts/services/Page.js"></script>
-        <script src="scripts/controllers/Main.js"></script>
         <script src="scripts/controllers/global.js"></script>
+        <script src="scripts/controllers/myClients.js"></script>
+        <script src="scripts/controllers/myHistory.js"></script>
+        <script src="scripts/controllers/myLanguages.js"></script>
         <!-- endbuild -->
 </body>
 </html>
