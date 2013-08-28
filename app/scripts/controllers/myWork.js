@@ -1,9 +1,8 @@
 'use strict';
 
 angular.module('j2App')
-    .controller('MyWorkCtrl', function ($scope) {
+    .controller('MyWorkCtrl', function ($scope,Page) {
         $scope.ShowMenu = false;
-        $scope.toggleMenu = function () {
-            $scope.ShowMenu = !$scope.ShowMenu;
-        };
+        $scope.Page=Page;
+        Page.setTitle("Home");
     });

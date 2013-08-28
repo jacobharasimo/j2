@@ -26,7 +26,7 @@ angular.module('j2App', ['ngRoute', 'ngAnimate', 'ngResource'])
             .otherwise({
                 redirectTo: '/'
             });
-    }).run(function ($rootScope) {
+    }).run(function ($rootScope,Page) {
         var $doc = $(document),
             Modernizr = window.Modernizr;
 

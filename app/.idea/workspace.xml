@@ -4,15 +4,18 @@
     <list default="true" id="129b416c-85d6-4262-9102-927672cb51aa" name="Default" comment="" />
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377629975016" ignored="false" />
-    <file path="/app.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377618932668" ignored="false" />
+    <file path="/index.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377650882971" ignored="false" />
+    <file path="/app.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377650537078" ignored="false" />
     <file path="/main.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377629395761" ignored="false" />
     <file path="/main.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377619266857" ignored="false" />
-    <file path="/Page.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377620613925" ignored="false" />
-    <file path="/global.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377620700743" ignored="false" />
+    <file path="/Page.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377650675961" ignored="false" />
+    <file path="/global.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377650454380" ignored="false" />
     <file path="/myClients.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377630024613" ignored="false" />
     <file path="/myHistory.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377630052949" ignored="false" />
     <file path="/myLanguages.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377630060679" ignored="false" />
+    <file path="/myWork.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377650641631" ignored="false" />
+    <file path="/main.css" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377649054386" ignored="false" />
+    <file path="/myWork.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377650748372" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,10 +35,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="global.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="global.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/controllers/global.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="22" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+            <state line="2" column="52" selection-start="86" selection-end="90" vertical-scroll-proportion="0.060606062">
               <folding />
             </state>
           </provider>
@@ -44,25 +47,7 @@
       <file leaf-file-name="Page.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/services/Page.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="0" selection-end="316" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myClients.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/controllers/myClients.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="222" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myHistory.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/controllers/myHistory.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="20" selection-start="59" selection-end="59" vertical-scroll-proportion="0.09090909">
+            <state line="8" column="17" selection-start="161" selection-end="166" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +56,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="114" column="50" selection-start="5921" selection-end="5930" vertical-scroll-proportion="-12.884615">
+            <state line="7" column="72" selection-start="412" selection-end="412" vertical-scroll-proportion="-4.576923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myWork.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/myWork.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="40" selection-start="143" selection-end="143" vertical-scroll-proportion="-2.6153846">
               <folding />
             </state>
           </provider>
@@ -80,16 +74,7 @@
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="63" selection-start="0" selection-end="2746" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myLanguages.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/controllers/myLanguages.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="224" vertical-scroll-proportion="0.0">
+            <state line="28" column="36" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,7 +83,7 @@
       <file leaf-file-name="myWork.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/controllers/myWork.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="231" vertical-scroll-proportion="0.0">
+            <state line="6" column="30" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,21 +99,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/scripts/controllers/main.js" />
         <option value="$PROJECT_DIR$/views/main.html" />
-        <option value="$PROJECT_DIR$/scripts/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/views/myClients.html" />
-        <option value="$PROJECT_DIR$/views/myWork.html" />
         <option value="$PROJECT_DIR$/views/myLanguages.html" />
         <option value="$PROJECT_DIR$/views/myHistory.html" />
+        <option value="$PROJECT_DIR$/scripts/controllers/myHistory.js" />
+        <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/scripts/controllers/myClients.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/myLanguages.js" />
-        <option value="$PROJECT_DIR$/scripts/controllers/myWork.js" />
+        <option value="$PROJECT_DIR$/scripts/app.js" />
+        <option value="$PROJECT_DIR$/views/myWork.html" />
         <option value="$PROJECT_DIR$/scripts/services/Page.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/global.js" />
-        <option value="$PROJECT_DIR$/scripts/controllers/myHistory.js" />
+        <option value="$PROJECT_DIR$/scripts/controllers/myWork.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -144,6 +129,15 @@
         <expanded-state>
           <State>
             <id />
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -180,6 +174,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,6 +204,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -264,16 +273,15 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="reference.settings.deploy.options" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -402,13 +410,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="54" selection-end="64" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1213" column="0" selection-start="100573" selection-end="100573" vertical-scroll-proportion="0.0" />
@@ -421,83 +422,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1213" column="0" selection-start="100573" selection-end="100573" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/myWork.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="57" selection-start="214" selection-end="214" vertical-scroll-proportion="0.1588785" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/myLanguages.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.1588785" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/myHistory.html">
+    <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="111" selection-end="111" vertical-scroll-proportion="0.1271028" />
+        <state line="5239" column="1" selection-start="114162" selection-end="114162" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../jacobharasimo/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="3" selection-start="439" selection-end="488" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/myClients.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/myWork.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="231" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/myLanguages.js">
+    <entry file="file://$PROJECT_DIR$/views/myHistory.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="63" selection-start="0" selection-end="2746" vertical-scroll-proportion="0.0">
+        <state line="4" column="6" selection-start="111" selection-end="111" vertical-scroll-proportion="-2.6153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/controllers/myClients.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="222" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/services/Page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="0" selection-end="316" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/global.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="22" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="50" selection-start="5921" selection-end="5930" vertical-scroll-proportion="-12.884615">
+        <state line="3" column="20" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/controllers/myHistory.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="20" selection-start="59" selection-end="59" vertical-scroll-proportion="0.09090909">
+        <state line="3" column="20" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/myLanguages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="20" selection-start="59" selection-end="59" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/myWork.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="40" selection-start="143" selection-end="143" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="36" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/myWork.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="30" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/services/Page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="161" selection-end="166" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="72" selection-start="412" selection-end="412" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/global.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="52" selection-start="86" selection-end="90" vertical-scroll-proportion="0.060606062">
           <folding />
         </state>
       </provider>
