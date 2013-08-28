@@ -3,10 +3,11 @@
 angular.module('j2App')
     .factory('Page', function (projects) {
         var activeProject ={};
+        var MenuOpen = false;
         var TopNav = [
             {
                 ID:'',
-                Title: "My Work",
+                Title: "My Projects",
                 Link: "#MyWork",
                 Active: false
             },

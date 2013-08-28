@@ -1,6 +1,6 @@
 <!doctype html>
-<!--[if IE 8]>         <html class="no-js lt-ie9" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"  ng-app="j2App" ng-controller="PageCtrl"> <!--<![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" ng-app="j2App" ng-controller="PageCtrl"><!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,40 +8,32 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
-
-        <link rel="stylesheet" href="bower_components/foundation/stylesheets/offcanvas.css">
-        <!-- endbuild -->
-      <!--build modernizr-->
-      <script src="bower_components/foundation/javascript/modernizr.foundation.js"></script>
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="bower_components/foundation/stylesheets/offcanvas.css">
+    <!-- endbuild -->
+    <!--build modernizr-->
+    <script src="bower_components/foundation/javascript/modernizr.foundation.js"></script>
 </head>
-  <body  class="off-canvas hide-extras"  ng-class="{active:Page.MenuOpen()}">
+  <body  class="off-canvas hide-extras">
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
     <!--[if lt IE 9]>
       <script src="bower_components/es5-shim/es5-shim.js"></script>
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
     <!--header area and desktop navigation-->
     <header id="header" class="row">
-
         <div class="four columns phone-two">
-            <h1 id="site-title"><a href="#">Jacob</a></h1>
-        </div>
-        <div class="eight columns phone-two">
-            <h2>My Work</h2>
-            <p class="show-for-small">
-                <a class='sidebar-button button' id="sidebarButton" href="javascript:;">Menu</a>
-            </p>
+            <h1 id="site-title"><a href="#">
+                <img src="images/logo.png" alt="Jacob Harasimo" title="Jacob Harasimo" class="hide-for-small"/>
+                <img src="images/logo_mobile.png" alt="Jacob Harasimo" title="Jacob Harasimo" class="hide-for-medium hide-for-large-up" style="float:left;"/>
+                <a class='sidebar-button button  right' id="sidebarButton" href="javascript:;">&nbsp;</a>
+            </a></h1>
         </div>
     </header>
-
     <!-- Add your site or application content here -->
-
     <!--Place a grid of all projecs here-->
     <div class="row" style="overflow: visible;">
         <section role="main">
@@ -57,7 +49,6 @@
                     <div id="contentBody" ng-view="" class="slide-animation"></div>
                 </div>
                 <!--This is the side nav show on mobile-->
-
             </div>
         </section>
         <section id="sidebar" role="complementary">
@@ -69,18 +60,15 @@
         </section>
         <!--List projects here-->
     </div>
-
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
        ga('create', 'UA-XXXXX-X');
        ga('send', 'pageview');
     </script>
-
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/jquery.scrollTo/jquery.scrollTo.js"></script>
     <script src="bower_components/angular/angular.js"></script>
@@ -93,7 +81,6 @@
     <script src="bower_components/foundation/javascript/jquery.foundation.mediaQueryToggle.js"></script>
     <script src="bower_components/foundation/javascript/jquery.foundation.tabs.js"></script>
     <script src="bower_components/foundation/javascript/jquery.offcanvas.js"></script>
-
     <!-- build:js scripts/modules.js -->
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
@@ -102,21 +89,20 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
-
     <!-- endbuild -->
-
-        <!-- build:js({.tmp,app}) scripts/scripts.js -->
-        <script src="scripts/app.js"></script>
-        <script src="scripts/controllers/myWork.js"></script>
-        <script src="scripts/controllers/myClients.js"></script>
-        <script src="scripts/controllers/myHistory.js"></script>
-        <script src="scripts/controllers/myLanguages.js"></script>
-        <script src="scripts/services/page.js"></script>
-        <script src="scripts/controllers/page.js"></script>
-        <script src="scripts/services/projects.js"></script>
-        <script src="scripts/directives/project.js"></script>
-        <script src="scripts/controllers/project.js"></script>
-        <script src="scripts/filters/spacesToDash.js"></script>
-        <!-- endbuild -->
+    <!-- build:js({.tmp,app}) scripts/scripts.js -->
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/myWork.js"></script>
+    <script src="scripts/controllers/myClients.js"></script>
+    <script src="scripts/controllers/myHistory.js"></script>
+    <script src="scripts/controllers/myLanguages.js"></script>
+    <script src="scripts/services/page.js"></script>
+    <script src="scripts/controllers/page.js"></script>
+    <script src="scripts/services/projects.js"></script>
+    <script src="scripts/directives/project.js"></script>
+    <script src="scripts/controllers/project.js"></script>
+    <script src="scripts/filters/spacesToDash.js"></script>
+    <script src="scripts/services/languages.js"></script>
+    <!-- endbuild -->
 </body>
 </html>

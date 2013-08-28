@@ -3,7 +3,8 @@
         "Name": "Sony Rewards",
         "Description": "Involved as a Web Developer to do content updates and page/section creation. Lead developer for upcoming Playstation Account Linking portal.",
         "Role": "",
-        "ImageURL": "../images/projects/sonyRewards.png",
+        "ImageURL": "images/projects/sonyRewards_small.png",
+        "LargeImage": "images/projects/sonyRewards.png",
         "SiteURL": "http://www.sonyrewards.com/en/home/welcome",
         "Technologies": [
             {
@@ -28,7 +29,8 @@
         "Name": "Sony Insider Specials",
         "Description": "Involved as a Web Developer creating cross browser emails for IE7+ desktop devices and mobile.",
         "Role": "",
-        "ImageURL": "../images/projects/sonyEmail.png",
+        "LargeImage": "images/projects/sonyEmail.png",
+        "ImageURL": "images/projects/sonyEmail_small.png",
         "SiteURL": "",
         "Technologies": [
             {
@@ -45,7 +47,8 @@
         "Name": "Viagra Canada",
         "Description": "Involved as a Web Developer to do content updates and javascript work for promotions.",
         "Role": "",
-        "ImageURL": "../images/projects/viagra_ca.png",
+        "LargeImage": "images/projects/viagra_ca.png",
+        "ImageURL": "images/projects/viagra_ca_small.png",
         "SiteURL": "http://www.viagra.ca/en/",
         "Technologies": [
             {
@@ -70,7 +73,8 @@
         "Name": "Centrum Canada",
         "Description": "Involved as a part of a web development team. Responsible for page creation, content updates and javascript debugging of widgets.",
         "Role": "",
-        "ImageURL": "../images/projects/centrum_ca.png",
+        "LargeImage": "images/projects/centrum_ca.png",
+        "ImageURL": "images/projects/centrum_ca_small.png",
         "SiteURL": "http://www.centrum.ca/",
         "Technologies": [
             {
@@ -95,7 +99,8 @@
         "Name": "Start Something With Alesse",
         "Description": "Involved as a Lead Web Developer. Multi-phased contest site with facebook integration.",
         "Role": "",
-        "ImageURL": "../images/projects/sswa.png",
+        "LargeImage": "images/projects/sswa.png",
+        "ImageURL": "images/projects/sswa_small.png",
         "SiteURL": "https://startsomethingwithalesse.ca/en/home/",
         "Technologies": [
             {
@@ -124,7 +129,8 @@
         "Name": "Art Of Yoga Studio",
         "Description": "Involved as a Web Developer and designer to create a Wordpress portal and provide client training on how to provide updates.",
         "Role": "",
-        "ImageURL": "../images/projects/ArtOfYogaStudio.png",
+        "LargeImage": "images/projects/ArtOfYogaStudio.png",
+        "ImageURL": "images/projects/ArtOfYogaStudio_small.png",
         "SiteURL": "http://www.artofyogastudio.com/",
         "Technologies": [
             {
@@ -149,7 +155,8 @@
         "Name": "Rogers Pulse",
         "Description": "Involved as a Lead Web Developer on a team to upgrade an existing .net site to web 2.0 standards as well as add many client request features. Rogesr Pulse in an internal Project management Portal.",
         "Role": "",
-        "ImageURL": "../images/projects/rogers.png",
+        "LargeImage": "images/projects/rogers.png",
+        "ImageURL": "images/projects/rogers_small.png",
         "SiteURL": "",
         "Technologies": [
             {
@@ -178,7 +185,8 @@
         "Name": "Biogen Idec - The Hub",
         "Description": "Involved as a Lead Web Developer on a team creating a global file management system.",
         "Role": "",
-        "ImageURL": "../images/projects/biogen_2.png",
+        "LargeImage": "images/projects/biogen_2.png",
+        "ImageURL": "images/projects/biogen_2_small.png",
         "SiteURL": "",
         "Technologies": [
             {
@@ -215,7 +223,8 @@
         "Name": "UR-Channel",
         "Description": "Involved as a Web Developer and designer to create a rich site.",
         "Role": "",
-        "ImageURL": "../images/projects/ur_channel.png",
+        "LargeImage": "images/projects/ur_channel.png",
+        "ImageURL": "images/projects/ur_channel_small.png",
         "SiteURL": "http://ur-channel.com/",
         "Technologies": [
             {
@@ -248,7 +257,8 @@
         "Name": "Klick - iConnect",
         "Description": "Involved as a Web Developer to create inovate portal to showcase a new iOS platform/app.",
         "Role": "",
-        "ImageURL": "../images/projects/iCONNECT.png",
+        "LargeImage": "images/projects/iCONNECT.png",
+        "ImageURL": "images/projects/iCONNECT_small.png",
         "SiteURL": "http://www.klick.com/iConnect/",
         "Technologies": [
             {
@@ -273,7 +283,8 @@
         "Name": "RSA Canada Mobile App",
         "Description": "Involved as a Web Developer to create a cross platform (iOS, BlackBerry, Android) mobile app",
         "Role": "",
-        "ImageURL": "../images/projects/rsa_ca.png",
+        "LargeImage": "images/projects/rsa_ca.png",
+        "ImageURL": "images/projects/rsa_ca_small.png",
         "SiteURL": "https://play.google.com/store/apps/details?id=com.app.rsa.mobile.android2&hl=en",
         "Technologies": [
             {
@@ -298,7 +309,8 @@
         "Name": "Telus - Loopbonding",
         "Description": "Involved as a Lead Web Developer to create an internal blackberry only application allowing installers to reference a database of devices for troubleshooting purposes.",
         "Role": "",
-        "ImageURL": "../images/projects/loopbonding.png",
+        "LargeImage": "images/projects/loopbonding.png",
+        "ImageURL": "images/projects/loopbonding_small.png",
         "SiteURL": "",
         "Technologies": [
             {
@@ -323,7 +335,8 @@
         "Name": "Amitiza.com - Desktop",
         "Description": "Involved as a Web Developer to process content updates and page creation for client.",
         "Role": "",
-        "ImageURL": "../images/projects/amitiza_desktop.png",
+        "LargeImage": "images/projects/amitiza_desktop.png",
+        "ImageURL": "images/projects/amitiza_desktop_small.png",
         "SiteURL": "http://www.amitiza.com/",
         "Technologies": [
             {
@@ -348,7 +361,8 @@
         "Name": "Amitiza.com - Mobile",
         "Description": "Involved as a Lead Web Developer to create a mobile responsive site.",
         "Role": "",
-        "ImageURL": "../images/projects/amitiza_mobile.png",
+        "LargeImage": "images/projects/amitiza_mobile.png",
+        "ImageURL": "images/projects/amitiza_mobile_small.png",
         "SiteURL": "http://www.amitiza.com/",
         "Technologies": [
             {
@@ -377,7 +391,8 @@
         "Name": "Turn To Help",
         "Description": "Involved as a Web Developer to create a rich Cleo Award Winning HTML5 website.",
         "Role": "",
-        "ImageURL": "../images/projects/turn_to_help.png",
+        "LargeImage": "images/projects/turn_to_help.png",
+        "ImageURL": "images/projects/turn_to_help_small.png",
         "SiteURL": "http://turntohelp.com/",
         "Technologies": [
             {
@@ -402,7 +417,8 @@
         "Name": "My Multiple Myeloma",
         "Description": "Involved as a Web Developer in creation and content update of a HTML5 rich Wordpress site.",
         "Role": "",
-        "ImageURL": "../images/projects/mmm.png",
+        "LargeImage": "images/projects/mmm.png",
+        "ImageURL": "images/projects/mmm_small.png",
         "SiteURL": "http://mymultiplemyeloma.com/",
         "Technologies": [
             {
@@ -427,7 +443,8 @@
         "Name": "VELCADE",
         "Description": "Involved as a Web Developer processing content updates and new page creation.",
         "Role": "",
-        "ImageURL": "../images/projects/VELCADE.png",
+        "LargeImage": "images/projects/VELCADE.png",
+        "ImageURL": "images/projects/VELCADE_small.png",
         "SiteURL": "http://www.velcade.com/",
         "Technologies": [
             {
@@ -452,7 +469,8 @@
         "Name": "Acorda Synapse",
         "Description": "Involved in a large team as a Web Developer in the creation of an Nielsen Norman Group award winning corporate intranet.",
         "Role": "",
-        "ImageURL": "../images/projects/synapse.png",
+        "LargeImage": "images/projects/synapse.png",
+        "ImageURL": "images/projects/synapse_small.png",
         "SiteURL": "http://www.nngroup.com/reports/intranet-design-annual/",
         "Technologies": [
             {

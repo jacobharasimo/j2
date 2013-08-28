@@ -1,3 +1,4 @@
+h1#site-title{text-align: center}
 /**********************************************************************************************
 * Card Flip Container                                                                         *
 **********************************************************************************************/
@@ -7,7 +8,13 @@ ul.checkmark {
     font-size: .75em;
     font-weight: bold;
 }
-ul.checkmark li{padding:0;}
+
+ul.checkmark li {
+    padding: 0;
+}
+.more:hover{
+    -webkit-transform: scale(1.2);
+}
 .more {
     background-color: #2CA6CB;
     width: 64px;
@@ -19,33 +26,35 @@ ul.checkmark li{padding:0;}
     border-radius: 40px;
     font-weight: 900;
     font-size: 3em;
-    opacity: 0;
-    transition: opacity .15s ease-in-out .1s;
-    -moz-transition: opacity .15s ease-in-out .1s;
-    -webkit-transition: opacity .15s ease-in-out .1s;
-
-
+    transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
 }
-.block-grid li a.more{margin: -32px 0 0 -32px;}
+
+.block-grid li a.more {
+    margin: -32px 0 0 -32px;
+}
+
 .more span {
-    color:white;
+    color: white;
     height: 64px;
     width: 64px;
     line-height: 64px;
     text-align: center;
     display: block
 }
-.panel.project:hover .more {
-    zoom: 1;
-    filter: alpha(opacity=90);
-    opacity: 0.9;
+
+.panel.project {
+    margin: 0 auto;
+    width: 205px;
+    padding: 0;
+    background: white;
+    border: none;
 }
-.panel.project:hover{cursor: pointer;}
-.panel.project{margin: 0 auto;
-    width: 205px;padding:0;background:white;border:none;}
+
 .card {
-    width:205px;
-    height:133px;
+    width: 205px;
+    height: 133px;
     position: relative;
     font-size: .8em;
     -webkit-perspective: 600;
@@ -61,6 +70,8 @@ ul.checkmark li{padding:0;}
     width: 100%;
     height: inherit;
     background: white;
+    z-index: 801;
+    transition: all .4s ease-in-out;
     -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .75);
     -webkit-transform: rotateX(0deg) rotateY(0deg);
     -webkit-transform-style: preserve-3d;
@@ -72,8 +83,6 @@ ul.checkmark li{padding:0;}
     -ms-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
-    z-index: 801;
-    transition: all .4s ease-in-out;
 }
 
 .card .face.back {
@@ -87,7 +96,8 @@ ul.checkmark li{padding:0;}
     background: white;
     height: 100%;
     padding: 0;
-    padding-top:.5em;
+    padding-top: .5em;
+    transition: all .4s ease-in-out;
     -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .75);
     -webkit-transform: rotateY(-180deg);
     -webkit-transform-style: preserve-3d;
@@ -99,16 +109,16 @@ ul.checkmark li{padding:0;}
     -ms-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+
 }
 
 .card.flip .front {
     z-index: 900;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
     -webkit-transform: rotateY(180deg);
     -moz-transform: rotateY(180deg);
     -moz-box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
     -webkit-box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.2);
 }
 
 .card.flip .back {
@@ -125,14 +135,14 @@ ul.checkmark li{padding:0;}
 }
 
 .slide-animation.ng-enter, .slide-animation.ng-leave {
-    -webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
-    -moz-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
-    -o-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
     transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
     position: absolute;
     left: 0;
     right: 0;
     min-height: 1000px;
+    -webkit-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -moz-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+    -o-transition: all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
 }
 
 .slide-animation.ng-enter {
@@ -158,9 +168,9 @@ ul.checkmark li{padding:0;}
 /* Requires: normalize.css */
 /* Global Reset & Standards ---------------------- */
 * {
+    box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 html {
@@ -282,10 +292,10 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     font-style: normal;
     color: #222222;
-    text-rendering: optimizeLegibility;
     line-height: 1.1;
     margin-bottom: 14px;
     margin-top: 14px;
+    text-rendering: optimizeLegibility;
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
@@ -597,36 +607,30 @@ span.prefix, span.postfix {
 
 .prefix {
     left: 2px;
-    -moz-border-radius-topleft: 2px;
-    -webkit-border-top-left-radius: 2px;
     border-top-left-radius: 2px;
-    -moz-border-radius-bottomleft: 2px;
-    -webkit-border-bottom-left-radius: 2px;
     border-bottom-left-radius: 2px;
     overflow: hidden;
+    -moz-border-radius-topleft: 2px;
+    -webkit-border-top-left-radius: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    -webkit-border-bottom-left-radius: 2px;
 }
 
 .postfix {
     right: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
     -moz-border-radius-topright: 2px;
     -webkit-border-top-right-radius: 2px;
-    border-top-right-radius: 2px;
     -moz-border-radius-bottomright: 2px;
     -webkit-border-bottom-right-radius: 2px;
-    border-bottom-right-radius: 2px;
 }
 
 input[type="text"], input[type="password"], input[type="date"], input[type="datetime"], input[type="email"], input[type="number"], input[type="search"], input[type="tel"], input[type="time"], input[type="url"], textarea {
     background-color: white;
     font-family: inherit;
     border: 1px solid #cccccc;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
     border-radius: 2px;
-    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
     color: rgba(0, 0, 0, 0.75);
     display: block;
@@ -635,10 +639,16 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
     padding: 6px;
     height: 32px;
     width: 100%;
+    transition: all 0.15s linear;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
     -webkit-transition: all 0.15s linear;
     -moz-transition: all 0.15s linear;
     -o-transition: all 0.15s linear;
-    transition: all 0.15s linear;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 
 input[type="text"].oversize, input[type="password"].oversize, input[type="date"].oversize, input[type="datetime"].oversize, input[type="email"].oversize, input[type="number"].oversize, input[type="search"].oversize, input[type="tel"].oversize, input[type="time"].oversize, input[type="url"].oversize, textarea.oversize {
@@ -667,13 +677,13 @@ select {
 /* Fieldsets */
 fieldset {
     border: solid 1px #ddd;
+    border-radius: 3px;
+    padding: 12px 12px 0;
+    margin: 18px 0;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
-    border-radius: 3px;
-    padding: 12px 12px 0;
-    margin: 18px 0;
 }
 
 fieldset legend {
@@ -703,12 +713,12 @@ fieldset legend {
     color: #fff;
     font-size: 12px;
     font-weight: bold;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
     -moz-border-radius-bottomleft: 2px;
     -webkit-border-bottom-left-radius: 2px;
-    border-bottom-left-radius: 2px;
     -moz-border-radius-bottomright: 2px;
     -webkit-border-bottom-right-radius: 2px;
-    border-bottom-right-radius: 2px;
 }
 
 .error textarea:focus, textarea.error:focus {
@@ -732,11 +742,11 @@ form.custom span.custom {
 }
 
 form.custom span.custom.radio {
+    border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
     -ms-border-radius: 100px;
     -o-border-radius: 100px;
-    border-radius: 100px;
 }
 
 form.custom span.custom.checkbox:before {
@@ -2648,212 +2658,6 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
 }
-
-/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
-/* Timer ---------------------- */
-div.orbit-wrapper div.timer {
-    width: 40px;
-    height: 40px;
-    overflow: hidden;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    opacity: .6;
-    cursor: pointer;
-    z-index: 31;
-}
-
-div.orbit-wrapper span.rotator {
-    display: block;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 0;
-    left: -20px;
-    background: url('/images/foundation/orbit/rotator-black.png?1352160753') no-repeat;
-    z-index: 3;
-}
-
-div.orbit-wrapper span.rotator.move {
-    left: 0;
-}
-
-div.orbit-wrapper span.mask {
-    display: block;
-    width: 20px;
-    height: 40px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    overflow: hidden;
-}
-
-div.orbit-wrapper span.mask.move {
-    width: 40px;
-    left: 0;
-    background: url('/images/foundation/orbit/timer-black.png?1352160753') repeat 0 0;
-}
-
-div.orbit-wrapper span.pause {
-    display: block;
-    width: 40px;
-    height: 40px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url('/images/foundation/orbit/pause-black.png?1352160753') no-repeat;
-    z-index: 4;
-    opacity: 0;
-}
-
-div.orbit-wrapper span.pause.active {
-    background: url('/images/foundation/orbit/pause-black.png?1352160753') no-repeat 0 -40px;
-}
-
-div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper span.pause.active {
-    opacity: 1;
-}
-
-/* Captions ---------------------- */
-.orbit-caption {
-    display: none;
-    font-family: inherit;
-}
-
-.orbit-wrapper .orbit-caption {
-    background: black;
-    background: rgba(0, 0, 0, 0.6);
-    z-index: 30;
-    color: white;
-    text-align: center;
-    padding: 7px 0;
-    font-size: 13px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Directional Nav ---------------------- */
-div.orbit-wrapper div.slider-nav {
-    display: block;
-}
-
-div.orbit-wrapper div.slider-nav span {
-    width: 39px;
-    height: 50px;
-    text-indent: -9999px;
-    position: absolute;
-    z-index: 30;
-    top: 50%;
-    margin-top: -25px;
-    cursor: pointer;
-}
-
-div.orbit-wrapper div.slider-nav span.right {
-    background: url('/images/foundation/orbit/right-arrow.png?1352160753');
-    background-size: 100%;
-    right: 0;
-}
-
-div.orbit-wrapper div.slider-nav span.left {
-    background: url('/images/foundation/orbit/left-arrow.png?1352160753');
-    background-size: 100%;
-    left: 0;
-}
-
-.lt-ie9 div.orbit-wrapper div.slider-nav span.right {
-    background: url('/images/foundation/orbit/right-arrow-small.png?1352160753');
-}
-
-.lt-ie9 div.orbit-wrapper div.slider-nav span.left {
-    background: url('/images/foundation/orbit/left-arrow-small.png?1352160753');
-}
-
-/* Bullet Nav ---------------------- */
-ul.orbit-bullets {
-    position: absolute;
-    z-index: 30;
-    list-style: none;
-    bottom: -40px;
-    left: 50%;
-    margin-left: -50px;
-    padding: 0;
-}
-
-ul.orbit-bullets li {
-    float: left;
-    margin-left: 5px;
-    cursor: pointer;
-    color: #999999;
-    text-indent: -9999px;
-    background: url('/images/foundation/orbit/bullets.jpg?1352160753') no-repeat 4px 0;
-    width: 13px;
-    height: 12px;
-    overflow: hidden;
-}
-
-ul.orbit-bullets li.active {
-    color: #222222;
-    background-position: -8px 0;
-}
-
-ul.orbit-bullets li.has-thumb {
-    background: none;
-    width: 100px;
-    height: 75px;
-}
-
-ul.orbit-bullets li.active.has-thumb {
-    background-position: 0 0;
-    border-top: 2px solid black;
-}
-
-/* Orbit Slide Counter */
-.orbit-slide-counter {
-    position: absolute;
-    bottom: 0;
-    z-index: 99;
-    background: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 5px;
-}
-
-/* Fluid Layout ---------------------- */
-div.orbit img.fluid-placeholder {
-    visibility: hidden;
-    position: static;
-    display: block;
-    width: 100%;
-}
-
-div.orbit, div.orbit-wrapper {
-    width: 100% !important;
-}
-
-/* Correct timer in IE */
-.lt-ie9 .timer {
-    display: none !important;
-}
-
-.lt-ie9 div.caption {
-    background: black;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
-    zoom: 1;
-}
-
-@media only screen and (max-width: 767px) {
-    div.orbit.orbit-stack-on-small img.fluid-placeholder {
-        visibility: visible;
-    }
-
-    div.orbit.orbit-stack-on-small .orbit-slide {
-        position: static;
-        margin-bottom: 10px;
-    }
-}
-
 /* CSS for jQuery Reveal Plugin Maintained for Foundation. foundation.zurb.com Free to use under the MIT license. http://www.opensource.org/licenses/mit-license.php */
 /* Reveal Modals ---------------------- */
 .reveal-modal-bg {
@@ -2940,145 +2744,6 @@ div.orbit, div.orbit-wrapper {
         border: solid 1px #000;
         background: white !important;
     }
-}
-
-#joyRideTipContent {
-    display: none;
-}
-
-/* Default styles for the container */
-.joyride-tip-guide {
-    display: none;
-    position: absolute;
-    background: black;
-    background: rgba(0, 0, 0, 0.8);
-    color: white;
-    width: 300px;
-    z-index: 101;
-    top: 0;
-    left: 0;
-    font-family: inherit;
-    font-weight: normal;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
-    border-radius: 4px;
-}
-
-.joyride-content-wrapper {
-    padding: 18px 20px 24px;
-}
-
-/* Add a little css triangle pip, older browser just miss out on the fanciness of it */
-.joyride-tip-guide span.joyride-nub {
-    display: block;
-    position: absolute;
-    left: 22px;
-    width: 0;
-    height: 0;
-    border: solid 14px;
-}
-
-.joyride-tip-guide span.joyride-nub.top {
-    border-color: black;
-    border-color: rgba(0, 0, 0, 0.8);
-    border-top-color: transparent !important;
-    border-left-color: transparent !important;
-    border-right-color: transparent !important;
-    top: -28px;
-    bottom: none;
-}
-
-.joyride-tip-guide span.joyride-nub.bottom {
-    border-color: black;
-    border-color: rgba(0, 0, 0, 0.8) !important;
-    border-bottom-color: transparent !important;
-    border-left-color: transparent !important;
-    border-right-color: transparent !important;
-    bottom: -28px;
-    bottom: none;
-}
-
-.joyride-tip-guide span.joyride-nub.right {
-    border-color: black;
-    border-color: rgba(0, 0, 0, 0.8) !important;
-    border-top-color: transparent !important;
-    border-right-color: transparent !important;
-    border-bottom-color: transparent !important;
-    top: 22px;
-    bottom: none;
-    left: auto;
-    right: -28px;
-}
-
-.joyride-tip-guide span.joyride-nub.left {
-    border-color: black;
-    border-color: rgba(0, 0, 0, 0.8) !important;
-    border-top-color: transparent !important;
-    border-left-color: transparent !important;
-    border-bottom-color: transparent !important;
-    top: 22px;
-    left: -28px;
-    right: auto;
-    bottom: none;
-}
-
-/* Typography */
-.joyride-tip-guide h1, .joyride-tip-guide h2, .joyride-tip-guide h3, .joyride-tip-guide h4, .joyride-tip-guide h5, .joyride-tip-guide h6 {
-    line-height: 1.25;
-    margin: 0;
-    font-weight: bold;
-    color: white;
-}
-
-.joyride-tip-guide p {
-    margin: 0 0 18px 0;
-    font-size: 14px;
-    line-height: 1.3;
-}
-
-.joyride-timer-indicator-wrap {
-    width: 50px;
-    height: 3px;
-    border: solid 1px #555555;
-    position: absolute;
-    right: 17px;
-    bottom: 16px;
-}
-
-.joyride-timer-indicator {
-    display: block;
-    width: 0;
-    height: inherit;
-    background: #666666;
-}
-
-.joyride-close-tip {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-    color: #777777 !important;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: .5 !important;
-}
-
-.joyride-close-tip:hover {
-    color: #eee !important;
-}
-
-.joyride-modal-bg {
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 100;
-    display: none;
-    top: 0;
-    left: 0;
-    cursor: pointer;
 }
 
 .clearing-blackout {
@@ -4309,6 +3974,7 @@ div.progress.round .meter {
 
 /* Small display targeting */
 @media only screen and (max-width: 767px) {
+    .reveal-modal-bg{background: transparent}
     .show-for-small, .hide-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge {
         display: inherit !important;
     }
@@ -5395,6 +5061,35 @@ ul.block-grid.projectList {
 .nav-bar > li:hover a {
     color: white;
 }
-#sideMainNav.nav-bar > li{border-right: solid 1px #333333;border-bottom:none;}
-#sideMainNav.nav-bar > li:last-child{border-bottom:1px solid #333333;}
-h2.projectTitle{margin:0;}
+
+#sideMainNav.nav-bar > li {
+    border-right: solid 1px #333333;
+    border-bottom: none;
+}
+
+#sideMainNav.nav-bar > li:last-child {
+    border-bottom: 1px solid #333333;
+}
+
+h2.projectTitle {
+    margin: 0;
+    margin-bottom: .5em;
+}
+hr{margin-bottom:.5em;}
+ul.languageGrid li{height: 140px;
+    display: table}
+ul.languageGrid li a{
+    display: table-cell;
+    vertical-align: middle;text-align: center}
+ul.languageGrid li a img.language{max-height:120px;max-width:120px;transition: all .2s ease-in-out;
+opacity:.7;
+}
+ul.languageGrid li a img.language:hover{opacity:1;}
+
+.sidebar-button {
+    background: transparent url(../images/menu-icon.png) no-repeat 11px center;
+    background-size: auto 18px;
+    background-color: #2ba6cb;
+    margin-left: 0;
+}
+.sidebar-button.right{float: right}

@@ -1,13 +1,47 @@
 <div class="row">
     <div class="columns ten">
-        <h2 class="projectTitle">{{Project.Name}}</h2>
+        <h2 class="projectTitle ng-cloak">{{Project.Name}}</h2>
     </div>
     <div class="columns two">
         <a href="#/MyWork" class="button right">Back</a>
     </div>
+    <hr/>
 </div>
 <div class="row" style="margin-top:1em;">
     <div class="columns twelve">
-        {{Project}}
+        <img ng-src="{{Project.LargeImage}}" alt="" title=""/>
+    </div>
+</div>
+      <div class="row">
+          <div class="columns twelve">
+              <table width="100%">
+                  <tbody>
+                  <tr>
+                      <td><strong>My Role:</strong></td>
+                      <td>{{Project.Role}}</td>
+                  </tr>
+                  <tr>
+                      <td><strong>Agency:</strong></td>
+                      <td>{{Project.Role}}</td>
+                  </tr>
+                  <tr>
+                      <td><strong>Client:</strong></td>
+                      <td>{{Project.Role}}</td>
+                  </tr>
+                  <tr>
+                      <td><strong>Technologies:</strong></td>
+                      <td>
+                          <ul style="margin-left:2em;">
+                              <li ng-repeat="tech in Project.Technologies">{{tech.Name}}</li>
+                          </ul>
+                      </td>
+                  </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div>
+<div class="row" ng-hide="!Project.SiteURL" class="ng-cloak">
+    <div class="columns twelve">
+        <a href="" ng-href="{{Project.SiteURL}}" class="button">Check it out!</a>
     </div>
 </div>

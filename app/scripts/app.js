@@ -30,7 +30,11 @@ angular.module('j2App', ['ngRoute', 'ngAnimate', 'ngResource'])
             .otherwise({
                 redirectTo: '/'
             });
-    }).run(function ($rootScope) {
+    }).run(function ($rootScope,Page) {
+
+        $rootScope.$on("$routeChangeSuccess",function(){
+            $("body").removeClass("active");
+        });
         var $doc = $(document),
             Modernizr = window.Modernizr;
 

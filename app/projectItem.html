@@ -1,7 +1,7 @@
 <div class="panel project" ng-mouseenter="flip()" ng-mouseleave="flipFront()" ng-click="flip()">
     <div class="card" ng-class="{flip: flipped}">
         <div class="face front">
-            <img ng-src="{{project.ImageURL}}"  alt="{{project.Name}}" title="{{project.Name}}" class="portfolioImg"/>
+            <img ng-src="{{project.ImageURL}}"  alt="{{project.Name}}" title="{{project.Name}}" class="portfolioImg  ng-cloak"/>
         </div>
         <div class="face back">
             <a ng-href="#/MyWork/{{project.Name|spacesToDash}}" ng-click="Page.setActiveProject(project)"  class="more">
