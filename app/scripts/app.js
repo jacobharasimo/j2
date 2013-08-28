@@ -15,6 +15,10 @@ angular.module('j2App', ['ngRoute', 'ngAnimate', 'ngResource'])
                 templateUrl: 'views/myWork.html',
                 controller: 'MyWorkCtrl'
             })
+            .when('/MyWork/:id', {
+                templateUrl: 'views/project.html',
+                controller: 'ProjectCtrl'
+            })
             .when('/MyLanguages', {
                 templateUrl: 'views/myLanguages.html',
                 controller: 'MyLanguagesCtrl'
@@ -26,7 +30,7 @@ angular.module('j2App', ['ngRoute', 'ngAnimate', 'ngResource'])
             .otherwise({
                 redirectTo: '/'
             });
-    }).run(function ($rootScope,Page) {
+    }).run(function ($rootScope) {
         var $doc = $(document),
             Modernizr = window.Modernizr;
 
@@ -36,14 +40,11 @@ angular.module('j2App', ['ngRoute', 'ngAnimate', 'ngResource'])
             $.fn.foundationAccordion ? $doc.foundationAccordion() : null;
             $.fn.foundationNavigation ? $doc.foundationNavigation() : null;
             $.fn.foundationTopBar ? $doc.foundationTopBar() : null;
-            $.fn.foundationCustomForms ? $doc.foundationCustomForms() : null;
             $.fn.foundationMediaQueryViewer ? $doc.foundationMediaQueryViewer() : null;
-            $.fn.foundationTabs ? $doc.foundationTabs({callback: $.foundation.customForms.appendCustomMarkup}) : null;
             $.fn.foundationTooltips ? $doc.foundationTooltips() : null;
             $.fn.foundationMagellan ? $doc.foundationMagellan() : null;
             $.fn.foundationClearing ? $doc.foundationClearing() : null;
 
-            $('input, textarea').placeholder();
         });
 
         // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids
