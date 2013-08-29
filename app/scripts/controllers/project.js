@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('j2App')
-  .controller('ProjectCtrl', function ($filter,$scope,$routeParams,Page,projects) {
+  .controller('ProjectCtrl', function ($filter,$scope,$routeParams,Page,projects,$location) {
         var projectID = $routeParams.id.replace(/_/g," ");
         Page.setTitle(projectID);
         if($.isEmptyObject(Page.ActiveProject()))

@@ -4,7 +4,7 @@
     <list default="true" id="129b416c-85d6-4262-9102-927672cb51aa" name="Default" comment="" />
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377715509696" ignored="false" />
+    <file path="/index.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377747956224" ignored="false" />
     <file path="/app.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377709805813" ignored="false" />
     <file path="/main.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377629395761" ignored="false" />
     <file path="/main.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377619266857" ignored="false" />
@@ -14,17 +14,18 @@
     <file path="/myHistory.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377716874727" ignored="false" />
     <file path="/myLanguages.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377716475972" ignored="false" />
     <file path="/myWork.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377663064887" ignored="false" />
-    <file path="/main.css" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377718726178" ignored="false" />
+    <file path="/main.css" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377747687974" ignored="false" />
     <file path="/myWork.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377662058961" ignored="false" />
-    <file path="/projectItem.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377666409852" ignored="false" />
-    <file path="/project.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377717845115" ignored="false" />
-    <file path="/page.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377709632345" ignored="false" />
+    <file path="/projectItem.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377738981794" ignored="false" />
+    <file path="/project.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377742787357" ignored="false" />
+    <file path="/page.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377741230780" ignored="false" />
     <file path="/projects.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377663456938" ignored="false" />
-    <file path="/project.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377718778782" ignored="false" />
+    <file path="/project.html" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377743097321" ignored="false" />
     <file path="/spacesToDash.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377664707152" ignored="false" />
     <file path="/myLanguages.js" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377711265128" ignored="false" />
-    <file path="/a.dummy" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377709696873" ignored="false" />
-    <file path="/projects.json" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377717096141" ignored="false" />
+    <file path="/a.dummy" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377742865642" ignored="false" />
+    <file path="/projects.json" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377742021823" ignored="false" />
+    <file path="/foundicons.css" changelist="129b416c-85d6-4262-9102-927672cb51aa" time="1377746274747" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,37 +45,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/controllers/project.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="languages.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/services/languages.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="26" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="myHistory.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/myHistory.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="87" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.2692308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="project.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="23" selection-start="1317" selection-end="1317" vertical-scroll-proportion="-15.538462">
+            <state line="44" column="45" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-26.653847">
               <folding>
                 <element signature="n#style#0;n#ul#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#2;n#!!top" expanded="true" />
               </folding>
@@ -82,37 +56,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/data/projects.json">
+      <file leaf-file-name="languages.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/data/languages.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="16" selection-start="354" selection-end="361" vertical-scroll-proportion="-4.576923">
-              <folding>
-                <element signature="e#838#1394#0" expanded="false" />
-                <element signature="e#1400#2150#0" expanded="false" />
-                <element signature="e#2156#2953#0" expanded="false" />
-                <element signature="e#2959#3839#0" expanded="false" />
-                <element signature="e#3845#4663#0" expanded="false" />
-                <element signature="e#4669#5600#0" expanded="false" />
-                <element signature="e#5606#6641#0" expanded="false" />
-                <element signature="e#6647#7564#0" expanded="false" />
-                <element signature="e#7570#8332#0" expanded="false" />
-                <element signature="e#8338#9164#0" expanded="false" />
-                <element signature="e#9170#10005#0" expanded="false" />
-                <element signature="e#10011#10778#0" expanded="false" />
-                <element signature="e#10784#11637#0" expanded="false" />
-                <element signature="e#11643#12390#0" expanded="false" />
-                <element signature="e#12396#13156#0" expanded="false" />
-                <element signature="e#13162#13899#0" expanded="false" />
-                <element signature="e#13905#14813#0" expanded="false" />
-              </folding>
+            <state line="112" column="31" selection-start="7454" selection-end="7454" vertical-scroll-proportion="-26.153847">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myClients.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/myClients.html">
+      <file leaf-file-name="myLanguages.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/myLanguages.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="29" selection-start="80" selection-end="80" vertical-scroll-proportion="-1.3076923">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -121,9 +77,9 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="26" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.68">
+            <state line="76" column="198" selection-start="3896" selection-end="3896" vertical-scroll-proportion="0.37706855">
               <folding>
-                <element signature="n#style#0;n#img#1;n#a#0;n#h1#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,7 +88,16 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5077" column="0" selection-start="111108" selection-end="111108" vertical-scroll-proportion="-5.88">
+            <state line="5101" column="41" selection-start="111904" selection-end="111904" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foundicons.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/foundicons.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="886" column="49" selection-start="30847" selection-end="30847" vertical-scroll-proportion="-14.764706">
               <folding />
             </state>
           </provider>
@@ -148,21 +113,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/scripts/controllers/myClients.js" />
-        <option value="$PROJECT_DIR$/scripts/app.js" />
-        <option value="$PROJECT_DIR$/scripts/services/page.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/myLanguages.js" />
         <option value="$PROJECT_DIR$/views/myLanguages.html" />
-        <option value="$PROJECT_DIR$/projectItem.html" />
-        <option value="$PROJECT_DIR$/scripts/data/languages.json" />
         <option value="$PROJECT_DIR$/scripts/services/projects.js" />
         <option value="$PROJECT_DIR$/scripts/services/languages.js" />
         <option value="$PROJECT_DIR$/views/myClients.html" />
         <option value="$PROJECT_DIR$/views/myHistory.html" />
-        <option value="$PROJECT_DIR$/scripts/data/projects.json" />
+        <option value="$PROJECT_DIR$/projectItem.html" />
         <option value="$PROJECT_DIR$/scripts/controllers/project.js" />
-        <option value="$PROJECT_DIR$/styles/main.css" />
+        <option value="$PROJECT_DIR$/scripts/controllers/page.js" />
+        <option value="$PROJECT_DIR$/scripts/data/projects.json" />
+        <option value="$PROJECT_DIR$/scripts/directives/project.js" />
         <option value="$PROJECT_DIR$/views/project.html" />
+        <option value="$PROJECT_DIR$/scripts/data/languages.json" />
+        <option value="$PROJECT_DIR$/styles/foundicons.css" />
+        <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -298,6 +263,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="filters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="j2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -384,9 +385,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24934107" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24934107" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -461,72 +462,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scripts/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="44" selection-start="1212" selection-end="1212" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/services/page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="13" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/myLanguages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="339" selection-end="353" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/myLanguages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="50" selection-start="297" selection-end="297" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/myWork.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="80" selection-start="0" selection-end="146" vertical-scroll-proportion="-2.6153846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projectItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="21" selection-end="22" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/myHistory.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="87" selection-start="145" selection-end="145" vertical-scroll-proportion="-3.2692308">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/data/languages.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="56" selection-start="1897" selection-end="1897" vertical-scroll-proportion="0.27818182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/services/projects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="24" selection-start="109" selection-end="109" vertical-scroll-proportion="0.11805555">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/project.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -538,38 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/data/projects.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="16" selection-start="354" selection-end="361" vertical-scroll-proportion="-4.576923">
-          <folding>
-            <element signature="e#838#1394#0" expanded="false" />
-            <element signature="e#1400#2150#0" expanded="false" />
-            <element signature="e#2156#2953#0" expanded="false" />
-            <element signature="e#2959#3839#0" expanded="false" />
-            <element signature="e#3845#4663#0" expanded="false" />
-            <element signature="e#4669#5600#0" expanded="false" />
-            <element signature="e#5606#6641#0" expanded="false" />
-            <element signature="e#6647#7564#0" expanded="false" />
-            <element signature="e#7570#8332#0" expanded="false" />
-            <element signature="e#8338#9164#0" expanded="false" />
-            <element signature="e#9170#10005#0" expanded="false" />
-            <element signature="e#10011#10778#0" expanded="false" />
-            <element signature="e#10784#11637#0" expanded="false" />
-            <element signature="e#11643#12390#0" expanded="false" />
-            <element signature="e#12396#13156#0" expanded="false" />
-            <element signature="e#13162#13899#0" expanded="false" />
-            <element signature="e#13905#14813#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5077" column="0" selection-start="111108" selection-end="111108" vertical-scroll-proportion="-5.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/myClients.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="29" selection-start="80" selection-end="80" vertical-scroll-proportion="-1.3076923">
@@ -577,20 +483,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/filters/spacesToDash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="46" selection-start="196" selection-end="215" vertical-scroll-proportion="0.1559633">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="24" selection-start="136" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projectItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="72" selection-start="397" selection-end="397" vertical-scroll-proportion="-3.2692308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/controllers/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="90" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/directives/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="0" selection-end="842" vertical-scroll-proportion="0.50688076">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="23" selection-start="1317" selection-end="1317" vertical-scroll-proportion="-15.538462">
+        <state line="44" column="45" selection-start="1558" selection-end="1558" vertical-scroll-proportion="-26.653847">
           <folding>
             <element signature="n#style#0;n#ul#0;n#td#1;n#tr#3;n#tbody#0;n#table#0;n#div#0;n#div#2;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/data/languages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="31" selection-start="7454" selection-end="7454" vertical-scroll-proportion="-26.153847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/myLanguages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/data/projects.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="501" column="4" selection-start="15309" selection-end="15309" vertical-scroll-proportion="0.34343433">
+          <folding>
+            <element signature="e#6#927#0" expanded="false" />
+            <element signature="e#933#1584#0" expanded="false" />
+            <element signature="e#1590#2413#0" expanded="false" />
+            <element signature="e#2419#3289#0" expanded="false" />
+            <element signature="e#3295#4253#0" expanded="false" />
+            <element signature="e#4259#5168#0" expanded="false" />
+            <element signature="e#5174#6198#0" expanded="false" />
+            <element signature="e#6204#7313#0" expanded="false" />
+            <element signature="e#7319#8319#0" expanded="false" />
+            <element signature="e#8325#9166#0" expanded="false" />
+            <element signature="e#9172#10088#0" expanded="false" />
+            <element signature="e#10094#11013#0" expanded="false" />
+            <element signature="e#11019#11852#0" expanded="false" />
+            <element signature="e#11858#12782#0" expanded="false" />
+            <element signature="e#12788#13612#0" expanded="false" />
+            <element signature="e#13618#14469#0" expanded="false" />
+            <element signature="e#14475#15303#0" expanded="false" />
+            <element signature="e#15309#16301#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/foundicons.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="886" column="49" selection-start="30847" selection-end="30847" vertical-scroll-proportion="-14.764706">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5101" column="41" selection-start="111904" selection-end="111904" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="26" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.68">
+        <state line="76" column="198" selection-start="3896" selection-end="3896" vertical-scroll-proportion="0.37706855">
           <folding>
-            <element signature="n#style#0;n#img#1;n#a#0;n#h1#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

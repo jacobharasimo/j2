@@ -1,4 +1,4 @@
-h1#site-title{text-align: center}
+h1#site-title{text-align: center;margin-bottom:0;}
 /**********************************************************************************************
 * Card Flip Container                                                                         *
 **********************************************************************************************/
@@ -2055,6 +2055,7 @@ div.button-bar ul.button-group:last-child {
 }
 
 .nav-bar > li.active > a {
+    text-shadow: 1px 1px 3px black;
     color: white;
     cursor: default;
 }
@@ -2133,6 +2134,7 @@ div.button-bar ul.button-group:last-child {
 }
 
 .nav-bar.vertical > li {
+    font-weight: bold;
     float: none;
     border-bottom: none;
     border-right: solid 1px #333333;
@@ -3974,6 +3976,7 @@ div.progress.round .meter {
 
 /* Small display targeting */
 @media only screen and (max-width: 767px) {
+    [role="main"]{border-left:1px solid #ddd}
     .reveal-modal-bg{background: transparent}
     .show-for-small, .hide-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge {
         display: inherit !important;
@@ -5048,6 +5051,7 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
 
 .nav-bar {
     background: transparent;
+    margin-top: 0;
 }
 
 .nav-bar > li > a {
@@ -5055,15 +5059,16 @@ table.show-for-xlarge, table.show-for-large, table.hide-for-small, table.hide-fo
 }
 
 ul.block-grid.projectList {
-    margin-top: -5px;
+    margin-top: 5px;
 }
 
 .nav-bar > li:hover a {
-    color: white;
+    color: black;
 }
 
 #sideMainNav.nav-bar > li {
-    border-right: solid 1px #333333;
+    border-right: none;
+    border-left: none;
     border-bottom: none;
 }
 
@@ -5092,4 +5097,25 @@ ul.languageGrid li a img.language:hover{opacity:1;}
     background-color: #2ba6cb;
     margin-left: 0;
 }
-.sidebar-button.right{float: right}
+.sidebar-button.right{float: right;margin-bottom: .5em;}
+#site-title hr{margin:0;}
+footer,.footer{margin-top:1em;border-top:1px solid #ddd;}
+.active [role="complementary"]{padding:0}
+.nav-bar > li{-webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;}
+.nav-bar > li:hover {background: #DDDDDD}
+.nav-bar > li:hover a{color: white;text-shadow: 1px 1px 3px black;}
+.sidebar-button.button.active{background-color: #2284a1;box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) inset;-webkit-box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) inset;}
+.sidebar-button.button:hover{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) inset;-webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.5) inset;}
+.chiseled{display: inline-block;
+    line-height: .8em;webkit-text-stroke: 0;
+    color: transparent;
+    background-color: rgba(82,96,117,0.5);
+    -webkit-background-clip: text;
+    text-shadow: rgba(255,255,255,0.5) 3px 2px 2px, rgba(255,255,255,0.2) 3px 2px 2px;
+    margin-bottom:14px;
+}
+.connectWithMe{height: 40px;
+    line-height: 40px;margin:0}

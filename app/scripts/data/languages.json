@@ -1,117 +1,117 @@
 [
     {
         "Name": "AJAX",
-        "Description": "",
+        "Description": "Techniques used on the client-side to create asynchronous web applications. Ajax is not a single technology, but a group of technologies.",
         "ImageURL": "images/languages/ajax.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/Ajax_(programming)"
     },
     {
         "Name": "AngularJs",
-        "Description": "",
+        "Description": "An open-source JavaScript framework, maintained by Google, that assists with running single-page applications. Its goal is to augment browser-based applications with model–view–controller (MVC) capability, in an effort to make both development and testing easier.",
         "ImageURL": "images/languages/angularJS.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/AngularJS"
     },
     {
         "Name": "ASP .net",
-        "Description": "",
+        "Description": "ASP.NET is a server-side Web application framework designed for Web development to produce dynamic Web pages. It was developed by Microsoft to allow programmers to build dynamic web sites, web applications and web services.",
         "ImageURL": "images/languages/aspnet.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/ASP.NET"
     },
     {
         "Name": "C#",
-        "Description": "",
+        "Description": " A multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, procedural, generic, object-oriented (class-based), and component-oriented programming disciplines.",
         "ImageURL": "images/languages/csharp.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/C_Sharp_(programming_language)"
     },
     {
         "Name": "CSS3",
-        "Description": "",
+        "Description": "Unlike CSS 2, which is a large single specification defining various features, CSS 3 is divided into several separate documents called 'modules'. Each module adds new capabilities or extends features defined in CSS 2, over preserving backward compatibility.",
         "ImageURL": "images/languages/css3.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/CSS3#CSS_3"
     },
     {
         "Name": "Drupal",
-        "Description": "",
+        "Description": "A free and open-source content management framework (CMF) written in PHP.  It is used as a back-end system for at least 2.1% of all websites worldwide.",
         "ImageURL": "images/languages/drupal.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/Drupal"
     },
     {
         "Name": "FoundationJs",
-        "Description": "",
+        "Description": "Responsive design gets lighter, faster and more advanced, so you can code smarter. Design by Zurb, a company in Campbell, California with mor ethan 15 years of web building experience. ",
         "ImageURL": "images/languages/foundationjs.png",
-        "SiteURL": ""
+        "SiteURL": "http://foundation.zurb.com/docs/"
     },
     {
         "Name": "Grunt",
-        "Description": "",
+        "Description": "Simply put Grunt is a javascript task runner. The Grunt ecosystem is huge and it's growing every day. With literally hundreds of plugins to choose from, you can use Grunt to automate just about anything with a minimum of effort.",
         "ImageURL": "images/languages/grunt.png",
-        "SiteURL": ""
+        "SiteURL": "http://gruntjs.com/"
     }
     ,
     {
         "Name": "HTML5",
-        "Description": "",
+        "Description": "It is the fifth revision of the HTML standard (created in 1990 and standardized as HTML 4 as of 1997).  Its core aims have been to improve the language with support for the latest multimedia while keeping it easily readable by humans and consistently understood by computers and devices (web browsers, parsers, etc.). ",
         "ImageURL": "images/languages/html5.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/HTML5"
     },
     {
         "Name": "JavaScript",
-        "Description": "",
+        "Description": "JavaScript is an interpreted computer programming language. As part of web browsers, implementations allow client-side scripts to interact with the user, control the browser, communicate asynchronously, and alter the document content that is displayed.",
         "ImageURL": "images/languages/javascript.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/JavaScript"
     },
     {
         "Name": "jQuery",
-        "Description": "",
+        "Description": "jQuery is a multi-browser JavaScript library designed to simplify the client-side scripting of HTML.  It is currently developed by a team of developers led by Dave Methvin. Used by over 65% of the 10,000 most visited websites, jQuery is the most popular JavaScript library in use today.",
         "ImageURL": "images/languages/jquery.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/JQuery"
     },
     {
         "Name": "jQuery - Mobile",
-        "Description": "",
+        "Description": "A unified, HTML5-based user interface system for all popular mobile device platforms, built on the rock-solid jQuery and jQuery UI foundation.",
         "ImageURL": "images/languages/jquery_mobile.png",
-        "SiteURL": ""
+        "SiteURL": "http://jquerymobile.com/"
     },
     {
         "Name": "MVC 4",
-        "Description": "",
+        "Description": "MVC 4 is a framework for building scalable, standards-based web applications using well-established design patterns and the power of ASP.NET and the .NET Framework.",
         "ImageURL": "images/languages/mvc4.png",
-        "SiteURL": ""
+        "SiteURL": "http://www.asp.net/mvc/mvc4"
     },
     {
         "Name": "NodeJs",
-        "Description": "",
+        "Description": "Node.js contains a built-in HTTP server library, making it possible to run a web server without the use of external software, such as Apache or Lighttpd, and allowing more control of how the web server works. Node.js enables web developers to create an entire web application in JavaScript, both server-side and client-side.",
         "ImageURL": "images/languages/nodejs.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/Nodejs"
     },
     {
         "Name": "PHP",
-        "Description": "",
+        "Description": "PHP is a server-side scripting language designed for web development but also used as a general-purpose programming language. PHP is now installed on more than 244 million websites and 2.1 million web servers.",
         "ImageURL": "images/languages/php.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/PHP"
     },
     {
         "Name": "Silverlight",
-        "Description": "",
+        "Description": "Microsoft Silverlight is an application framework for writing and running rich Internet applications, with features and purposes similar to those of Adobe Flash. The run-time environment for Silverlight is available as a plug-in for web browsers running under Microsoft Windows and OS X.",
         "ImageURL": "images/languages/silverlight.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/Silverlight"
     },
     {
         "Name": "Twitter Bootstrap",
-        "Description": "",
+        "Description": "Bootstrap is a free collection of tools for creating websites and web applications. It contains HTML and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.",
         "ImageURL": "images/languages/twitter_bootstrap.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/Twitter_Bootstrap"
     },
     {
         "Name": "WordPress",
-        "Description": "",
+        "Description": "WordPress is a free and open source blogging tool and a content management system (CMS) based on PHP and MySQL which runs on a web hosting service. Features include a plug-in architecture and a template system. WordPress is used by over 18.9% of the top 10 million websites as of August 2013.",
         "ImageURL": "images/languages/Wordpress.png",
-        "SiteURL": ""
+        "SiteURL": "http://en.wikipedia.org/wiki/WordPress"
     },
     {
         "Name": "Yeoman",
-        "Description": "",
+        "Description": "Yeoman is more than just a tool. It's a workflow; a collection of tools and best practices working in harmony to make developing for the web even better.",
         "ImageURL": "images/languages/yeoman.png",
-        "SiteURL": ""
+        "SiteURL": "http://yeoman.io/"
     }
 ]

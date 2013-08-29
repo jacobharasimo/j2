@@ -11,6 +11,7 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="bower_components/foundation/stylesheets/offcanvas.css">
+      <link rel="stylesheet" href="styles/foundicons.css">
     <!-- endbuild -->
     <!--build modernizr-->
     <script src="bower_components/foundation/javascript/modernizr.foundation.js"></script>
@@ -27,9 +28,9 @@
     <header id="header" class="row">
         <div class="four columns phone-two">
             <h1 id="site-title"><a href="#">
-                <img src="images/logo.png" alt="Jacob Harasimo" title="Jacob Harasimo" class="hide-for-small"/>
-                <img src="images/logo_mobile.png" alt="Jacob Harasimo" title="Jacob Harasimo" class="hide-for-medium hide-for-large-up" style="float:left;"/>
-                <a class='sidebar-button button  right' id="sidebarButton" href="javascript:;">&nbsp;</a>
+                <span class="chiseled">Jacob Harasimo</span>
+                <a class='sidebar-button button right' id="sidebarButton" href="javascript:;" ng-click="toggleNav()" ng-class="{active:activeNav}">&nbsp;</a>
+                <hr class="hide-for-medium-up"/>
             </a></h1>
         </div>
     </header>
@@ -60,6 +61,34 @@
         </section>
         <!--List projects here-->
     </div>
+    <footer class="site-footer row" role="contentinfo">
+        <div class="twelve columns">
+            <ul class="block-grid">
+                <li><h5 class="connectWithMe">Connect with me: </h5></li>
+                <li>
+                <a class="webicon github" href="https://github.com/jacobharasimo" alt="Github" title="Github">Github</a>
+                </li>
+                <li>
+                <a class="webicon googleplus" href="https://plus.google.com/117024444509730651199/posts" alt="Google+" title="Google+">Google+</a>
+                </li>
+                <li>
+                <a class="webicon hangouts" href="https://plus.google.com/117024444509730651199/posts" alt="Hangouts" title="Hangouts">Hangouts</a>
+                </li>
+                <li>
+                <a class="webicon linkedin" href="http://www.linkedin.com/pub/jacob-harasimo/22/a03/b0a" alt="LinkedIn" title="LinkedIn">LinkedIn</a>
+                </li>
+                <li>
+                <a class="webicon mail" href="mailto:jacobharasimo@gmail.com" alt="Mail" title="Mail">Mail</a>
+                </li>
+                <li>
+                <a class="webicon stackoverflow" href="http://stackoverflow.com/users/2719979/jacobharasimo" alt="Stack Overflow" title="Stack Overflow">Stack Overflow</a>
+                </li>
+                <li>
+                <a class="webicon tripadvisor" href="http://www.tripadvisor.ca/members/jacobharasimo" alt="Trip Advisor" title="Trip Advisor">Trip Advisor</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
