@@ -1,4 +1,9 @@
-h1#site-title{text-align: center;margin-bottom:0;}
+/*html{background:url(../images/glow.png) no-repeat fixed center top, url("../images/light-noise.gif") repeat fixed 0 0}*/
+h1#site-title {
+    text-align: center;
+    margin-bottom: 0;
+}
+
 /**********************************************************************************************
 * Card Flip Container                                                                         *
 **********************************************************************************************/
@@ -12,9 +17,11 @@ ul.checkmark {
 ul.checkmark li {
     padding: 0;
 }
-.more:hover{
+
+.more:hover {
     -webkit-transform: scale(1.2);
 }
+
 .more {
     background-color: #2CA6CB;
     width: 64px;
@@ -2660,6 +2667,7 @@ ul.flyout li.active a, .nav-bar li ul li.active a {
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
     opacity: 0;
 }
+
 /* CSS for jQuery Reveal Plugin Maintained for Foundation. foundation.zurb.com Free to use under the MIT license. http://www.opensource.org/licenses/mit-license.php */
 /* Reveal Modals ---------------------- */
 .reveal-modal-bg {
@@ -3976,8 +3984,14 @@ div.progress.round .meter {
 
 /* Small display targeting */
 @media only screen and (max-width: 767px) {
-    [role="main"]{border-left:1px solid #ddd}
-    .reveal-modal-bg{background: transparent}
+    [role="main"] {
+        border-left: 1px solid #ddd
+    }
+
+    .reveal-modal-bg {
+        background: transparent
+    }
+
     .show-for-small, .hide-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge {
         display: inherit !important;
     }
@@ -5080,16 +5094,32 @@ h2.projectTitle {
     margin: 0;
     margin-bottom: .5em;
 }
-hr{margin-bottom:.5em;}
-ul.languageGrid li{height: 140px;
-    display: table}
-ul.languageGrid li a{
-    display: table-cell;
-    vertical-align: middle;text-align: center}
-ul.languageGrid li a img.language{max-height:120px;max-width:120px;transition: all .2s ease-in-out;
-opacity:.7;
+
+hr {
+    margin-bottom: .5em;
 }
-ul.languageGrid li a img.language:hover{opacity:1;}
+
+ul.languageGrid li {
+    height: 140px;
+    display: table
+}
+
+ul.languageGrid li a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center
+}
+
+ul.languageGrid li a img.language {
+    max-height: 120px;
+    max-width: 120px;
+    transition: all .2s ease-in-out;
+    opacity: .7;
+}
+
+ul.languageGrid li a img.language:hover {
+    opacity: 1;
+}
 
 .sidebar-button {
     background: transparent url(../images/menu-icon.png) no-repeat 11px center;
@@ -5097,25 +5127,65 @@ ul.languageGrid li a img.language:hover{opacity:1;}
     background-color: #2ba6cb;
     margin-left: 0;
 }
-.sidebar-button.right{float: right;margin-bottom: .5em;}
-#site-title hr{margin:0;}
-footer,.footer{margin-top:1em;border-top:1px solid #ddd;}
-.active [role="complementary"]{padding:0}
-.nav-bar > li{-webkit-transition: all 0.3s ease-in-out;
+
+.sidebar-button.right {
+    float: right;
+    margin-bottom: .5em;
+}
+
+#site-title hr {
+    margin: 0;
+}
+
+footer, .footer {
+    margin-top: 1em;
+    border-top: 1px solid #ddd;
+}
+
+.active [role="complementary"] {
+    padding: 0
+}
+
+.nav-bar > li {
+    -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;}
-.nav-bar > li:hover {background: #DDDDDD}
-.nav-bar > li:hover a{color: white;text-shadow: 1px 1px 3px black;}
-.sidebar-button.button.active{background-color: #2284a1;box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) inset;-webkit-box-shadow:2px 2px 4px rgba(0, 0, 0, 0.5) inset;}
-.sidebar-button.button:hover{box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) inset;-webkit-box-shadow:1px 1px 2px rgba(0, 0, 0, 0.5) inset;}
-.chiseled{display: inline-block;
-    line-height: .8em;webkit-text-stroke: 0;
-    color: transparent;
-    background-color: rgba(82,96,117,0.5);
-    -webkit-background-clip: text;
-    text-shadow: rgba(255,255,255,0.5) 3px 2px 2px, rgba(255,255,255,0.2) 3px 2px 2px;
-    margin-bottom:14px;
+    transition: all 0.3s ease-in-out;
 }
-.connectWithMe{height: 40px;
-    line-height: 40px;margin:0}
+
+.nav-bar > li:hover {
+    background: #DDDDDD
+}
+
+.nav-bar > li:hover a {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+.sidebar-button.button.active {
+    background-color: #2284a1;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+.sidebar-button.button:hover {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) inset;
+    -webkit-box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5) inset;
+}
+
+.chiseled {
+    display: inline-block;
+    line-height: .8em;
+    webkit-text-stroke: 0;
+    color: transparent;
+    background-color: rgba(82, 96, 117, 0.5);
+    -webkit-background-clip: text;
+    text-shadow: rgba(255, 255, 255, 0.5) 3px 2px 2px, rgba(255, 255, 255, 0.2) 3px 2px 2px;
+    margin-bottom: 14px;
+}
+
+.connectWithMe {
+    height: 40px;
+    line-height: 40px;
+    margin: 0
+}
