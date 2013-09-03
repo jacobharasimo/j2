@@ -2057,8 +2057,7 @@ div.button-bar ul.button-group:last-child {
 }
 
 .nav-bar > li.active {
-    background: #2ba6cb;
-    border-color: #2284a1;
+
 }
 
 .nav-bar > li.active > a {
@@ -2068,12 +2067,7 @@ div.button-bar ul.button-group:last-child {
 }
 
 .nav-bar > li.active:hover {
-    background: #2ba6cb;
     cursor: default;
-}
-
-.nav-bar > li:hover {
-    background: #333333;
 }
 
 .nav-bar > li > a {
@@ -2136,6 +2130,7 @@ div.button-bar ul.button-group:last-child {
 }
 
 .nav-bar.vertical {
+    border:none;
     height: auto;
     margin-top: 0;
 }
@@ -2143,8 +2138,7 @@ div.button-bar ul.button-group:last-child {
 .nav-bar.vertical > li {
     font-weight: bold;
     float: none;
-    border-bottom: none;
-    border-right: solid 1px #333333;
+    border: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
@@ -2170,11 +2164,11 @@ div.button-bar ul.button-group:last-child {
 }
 
 .nav-bar.vertical > li.active {
-    border-right: solid 1px #2284a1;
+    text-decoration: underline;
 }
 
 .nav-bar.vertical > li:last-child {
-    border-bottom: solid 1px #333333;
+    border:none;
 }
 
 .flyout {
@@ -5076,9 +5070,7 @@ ul.block-grid.projectList {
     margin-top: 5px;
 }
 
-.nav-bar > li:hover a {
-    color: black;
-}
+
 
 #sideMainNav.nav-bar > li {
     border-right: none;
@@ -5154,13 +5146,9 @@ footer, .footer {
 }
 
 .nav-bar > li:hover {
-    background: #DDDDDD
+    text-decoration: underline;
 }
 
-.nav-bar > li:hover a {
-    color: white;
-    text-shadow: 1px 1px 3px black;
-}
 
 .sidebar-button.button.active {
     background-color: #2284a1;
@@ -5189,3 +5177,18 @@ footer, .footer {
     line-height: 40px;
     margin: 0
 }
+.nav-bar > li {position: relative;}
+ul#sideMainNav{border:solid 1px #333333;}
+ul#sideMainNav.nav-bar > li{font-weight: bold}
+ul#sideMainNav.nav-bar > li:first-child{border-top:none;}
+ul#sideMainNav.nav-bar > li:last-child{border-bottom:none;}
+ul#sideMainNav.nav-bar > li.active{background: #2ba6cb;text-decoration: underline;}
+.block-grid.four-up.mobile-two-up.clientsGrid {margin-top:22px;}
+.block-grid.four-up.mobile-two-up.clientsGrid li{height:105px;display: table}
+.block-grid.four-up.mobile-two-up.clientsGrid li a{display: table-cell;
+    vertical-align: middle;}
+.block-grid.four-up.mobile-two-up.clientsGrid li a img{transition: all .2s ease-in-out;
+    opacity: .7;}
+.block-grid.four-up.mobile-two-up.clientsGrid li:hover a img{opacity: 1}
+.site-footer{margin-top:22px;}
+.clientLogo{}

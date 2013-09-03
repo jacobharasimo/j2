@@ -42,7 +42,7 @@
                 <div class="four columns hide-for-small">
                     <nav id="menu" role="navigation" class="hide-for-small">
                         <ul id="mainNav" class="nav-bar vertical">
-                            <li ng-repeat="nav in Page.TopNav()" class="ng-cloak" ng-class="{active: nav.Active}"><a ng-href="{{nav.Link}}">{{nav.Title}}</a></li>
+                            <li ng-repeat="nav in Page.TopNav()" class="ng-cloak" ng-class="{active: nav.Active}"><a target="{{nav.Target}}" href  ng-href="{{nav.Link}}">{{nav.Title}}</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -55,7 +55,7 @@
         <section id="sidebar" role="complementary">
             <nav id="sideMenu" role="navigation">
                 <ul id="sideMainNav" class="nav-bar">
-                    <li ng-repeat="nav in Page.TopNav()" class="ng-cloak" ng-class="{active: nav.Active}"><a ng-href="{{nav.Link}}">{{nav.Title}}</a></li>
+                    <li ng-repeat="nav in Page.TopNav()" class="ng-cloak" ng-class="{active: nav.Active}"><a target="{{nav.Target}}" href  ng-href="{{nav.Link}}">{{nav.Title}}</a></li>
                 </ul>
             </nav>
         </section>
@@ -86,6 +86,9 @@
                 <li>
                 <a class="webicon tripadvisor" href="http://www.tripadvisor.ca/members/jacobharasimo" alt="Trip Advisor" title="Trip Advisor">Trip Advisor</a>
                 </li>
+                <li>
+                    <a class="webicon facebook" href="https://www.facebook.com/jacobharasimo" alt="Facebook" title="Facebook">Facebook</a>
+                </li>
             </ul>
         </div>
     </footer>
@@ -99,7 +102,6 @@
        ga('send', 'pageview');
     </script>
     <script src="bower_components/jquery/jquery.js"></script>
-    <script src="bower_components/jquery.scrollTo/jquery.scrollTo.js"></script>
     <script src="bower_components/angular/angular.js"></script>
     <!--Build foundation-->
     <script src="bower_components/foundation/javascript/jquery.foundation.reveal.js"></script>
@@ -132,6 +134,7 @@
     <script src="scripts/controllers/project.js"></script>
     <script src="scripts/filters/spacesToDash.js"></script>
     <script src="scripts/services/languages.js"></script>
+    <script src="scripts/services/clients.js"></script>
     <!-- endbuild -->
 </body>
 </html>

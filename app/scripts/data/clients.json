@@ -1,0 +1,80 @@
+[
+    {
+        "Name": "Sony Corporation  of America",
+        "Description": "",
+        "ImageURL": "images/clients/sony_america.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Sony_Corporation_of_America"
+    },
+    {
+        "Name": "Pfizer",
+        "Description": "",
+        "ImageURL": "images/clients/pfizer.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Pfizer"
+    },
+    {
+        "Name": "Art Of Yoga Studio",
+        "Description": "",
+        "ImageURL": "images/clients/art_of_yoga_studio.png",
+        "SiteURL": "http://www.artofyogastudio.com/"
+    },
+    {
+        "Name": "Rogers Communications",
+        "Description": "",
+        "ImageURL": "images/clients/rogers_communication.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Rogers_Communications"
+    },
+    {
+        "Name": "Biogen Idec",
+        "Description": "",
+        "ImageURL": "images/clients/biogen_idec.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Biogen_Idec"
+    },
+    {
+        "Name": "UR-Channel",
+        "Description": "",
+        "ImageURL": "images/clients/ur-channel.png",
+        "SiteURL": "http://ur-channel.com/"
+    },
+    {
+        "Name": "Klick Health",
+        "Description": "",
+        "ImageURL": "images/clients/klick_health.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Klick_Health"
+    },
+    {
+        "Name": "Royal & Sun Alliance",
+        "Description": "",
+        "ImageURL": "images/clients/royal_sun_alliance.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Royal_%26_SunAlliance"
+    },
+    {
+        "Name": "Telus",
+        "Description": "",
+        "ImageURL": "images/clients/telus.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Telus"
+    },
+    {
+        "Name": "Takeda",
+        "Description": "",
+        "ImageURL": "images/clients/takeda.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Takeda_Pharmaceutical_Company"
+    },
+    {
+        "Name": "Reckitt Benckiser",
+        "Description": "",
+        "ImageURL": "images/clients/reckitt_benckiser.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Reckitt_Benckiser"
+    },
+    {
+        "Name": "Millennium Pharmaceuticals Inc.",
+        "Description": "",
+        "ImageURL": "images/clients/millennium.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Millennium_Pharmaceuticals"
+    },
+    {
+        "Name": "Acorda Therapeutics Inc.",
+        "Description": "",
+        "ImageURL": "images/clients/acorda_therapeutics.png",
+        "SiteURL": "http://en.wikipedia.org/wiki/Acorda_Therapeutics"
+    }
+]

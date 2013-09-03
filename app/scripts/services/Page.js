@@ -3,7 +3,6 @@
 angular.module('j2App')
     .factory('Page', function (projects) {
         var activeProject ={};
-        var MenuOpen = false;
         var TopNav = [
             {
                 ID:'',
@@ -28,6 +27,13 @@ angular.module('j2App')
                 Title: "My History",
                 Link: "#MyHistory",
                 Active: false
+            },
+            {
+                ID:'',
+                Title: "My CV",
+                Link: "/downloads/curriculum_vitae.pdf",
+                Active: false,
+                Target:"_blank"
             }
         ];
 

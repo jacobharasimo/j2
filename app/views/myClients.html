@@ -1,12 +1,20 @@
 <div class="row">
     <div class="columns twelve">
-        <p>Still being built.</p>
-        <!--<ul class="block-grid projectList">
-            <li>
-                <a href="">
-                    <img class="Client" src="http://placehold.it/150x150"/>
-                </a>
-            </li>
-        </ul>-->
+        <div class="row">
+            <div class="columns twelve">
+                <h3>My work is used by:</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="columns twelve">
+                <ul class="block-grid four-up mobile-two-up clientsGrid ">
+                    <li ng-repeat="client in Clients">
+                        <a href ng-href="{{client.SiteURL}}" target="_blank">
+                            <img class="clientLogo  ng-cloak" ng-src="{{client.ImageURL}}" alt="{{client.Name}}" title="{{client.Name}}"/>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
