@@ -158,16 +158,7 @@ module.exports = function (grunt) {
       dist: {}
     },*/
     rev: {
-      dist: {
-        files: {
-          src: [
-            '<%= yeoman.dist %>/scripts/{,*/}*.js',
-            '<%= yeoman.dist %>/styles/{,*/}*.css',
-            '<%= yeoman.dist %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}',
-            '<%= yeoman.dist %>/styles/fonts/*'
-          ]
-        }
-      }
+      img: ['images/**','!images/**']
     },
     useminPrepare: {
       html: '<%= yeoman.app %>/index.html',
@@ -249,7 +240,8 @@ module.exports = function (grunt) {
             '.htaccess',
             'bower_components/**/*',
             'images/{,*/}*.{gif,webp}',
-            'styles/fonts/*'
+            'styles/fonts/*',
+            'scripts/data/*'
           ]
         }, {
           expand: true,
@@ -340,7 +332,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('build', [
-    'clean:dist',
+/*    'clean:dist',*/
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',
