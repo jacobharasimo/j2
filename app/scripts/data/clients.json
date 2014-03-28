@@ -1,15 +1,21 @@
 [
     {
-        "Name": "Sony Corporation  of America",
+        "Name": "Sico Paints",
+        "Description": "",
+        "ImageURL": "images/clients/sico_paints.png",
+        "SiteURL": "http://www.sico.ca/"
+    },
+    {
+        "Name": "Sony Corporation of America",
         "Description": "",
         "ImageURL": "images/clients/sony_america.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Sony_Corporation_of_America"
+        "SiteURL": "http://www.sony.com/"
     },
     {
         "Name": "Pfizer",
         "Description": "",
         "ImageURL": "images/clients/pfizer.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Pfizer"
+        "SiteURL": "http://www.pfizer.ca/en/home/?"
     },
     {
         "Name": "Art Of Yoga Studio",
@@ -21,13 +27,13 @@
         "Name": "Rogers Communications",
         "Description": "",
         "ImageURL": "images/clients/rogers_communication.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Rogers_Communications"
+        "SiteURL": "http://www.rogers.com/web/Rogers.portal"
     },
     {
         "Name": "Biogen Idec",
         "Description": "",
         "ImageURL": "images/clients/biogen_idec.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Biogen_Idec"
+        "SiteURL": "http://www.biogenidec.com/"
     },
     {
         "Name": "UR-Channel",
@@ -39,42 +45,42 @@
         "Name": "Klick Health",
         "Description": "",
         "ImageURL": "images/clients/klick_health.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Klick_Health"
+        "SiteURL": "http://www.klick.com/health/#home"
     },
     {
         "Name": "Royal & Sun Alliance",
         "Description": "",
         "ImageURL": "images/clients/royal_sun_alliance.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Royal_%26_SunAlliance"
+        "SiteURL": "https://www.rsagroup.ca/"
     },
     {
         "Name": "Telus",
         "Description": "",
         "ImageURL": "images/clients/telus.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Telus"
+        "SiteURL": "http://mobility.telus.com/en/ON/home/"
     },
     {
         "Name": "Takeda",
         "Description": "",
         "ImageURL": "images/clients/takeda.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Takeda_Pharmaceutical_Company"
+        "SiteURL": "http://www.takeda.com/"
     },
     {
         "Name": "Reckitt Benckiser",
         "Description": "",
         "ImageURL": "images/clients/reckitt_benckiser.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Reckitt_Benckiser"
+        "SiteURL": "http://www.rb.com/home"
     },
     {
         "Name": "Millennium Pharmaceuticals Inc.",
         "Description": "",
         "ImageURL": "images/clients/millennium.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Millennium_Pharmaceuticals"
+        "SiteURL": "http://www.millennium.com/default.aspx"
     },
     {
         "Name": "Acorda Therapeutics Inc.",
         "Description": "",
         "ImageURL": "images/clients/acorda_therapeutics.png",
-        "SiteURL": "http://en.wikipedia.org/wiki/Acorda_Therapeutics"
+        "SiteURL": "http://www.acorda.com/"
     }
 ]
