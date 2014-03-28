@@ -40,6 +40,7 @@ ul.checkmark li {
 
 .block-grid li a.more {
     margin: -32px 0 0 -32px;
+    opacity: .5;
 }
 
 .more span {
@@ -93,7 +94,7 @@ ul.checkmark li {
 }
 
 .card .face.back {
-
+cursor:pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, .75);
     width: 100%;
     position: absolute;
@@ -5192,3 +5193,6 @@ ul#sideMainNav.nav-bar > li.active{background: #2ba6cb;text-decoration: underlin
 .block-grid.four-up.mobile-two-up.clientsGrid li:hover a img{opacity: 1}
 .site-footer{margin-top:22px;}
 .clientLogo{}
+ul.check-boxes{list-style-type: none;}
+ul.check-boxes li{background: url(/images/tick.png) no-repeat 0 50%;
+padding-left: 2em;}

@@ -271,7 +271,7 @@ module.exports = function (grunt) {
       dist: [
         'coffee',
         'copy:styles',
-        'imagemin',
+        //'imagemin',
         'svgmin',
         'htmlmin'
       ]
@@ -332,7 +332,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('build', [
-/*    'clean:dist',*/
+    'clean:dist',
     'useminPrepare',
     'concurrent:dist',
     'autoprefixer',

@@ -1,4 +1,42 @@
 [
+
+
+{
+        "Name": "Sico Paints",
+        "Description": "Involved as a Front End Web Developer to create a rich responsive modern site including a ~2,000 element color selector.",
+        "Role": "Web Developer",
+        "Agency":"Ecentricarts",
+        "Client":"Sico Paints",
+        "ImageURL": "images/projects/sico_paints_small.png",
+        "LargeImage": "images/projects/sico_paints.png",
+        "SiteURL": "http://www.sico.ca/en-CA/Home.aspx",
+        "Technologies": [
+            {
+                "Name": "Kentico CMS",
+                "Description": ""
+            },
+            {
+                "Name": "HTML5",
+                "Description": ""
+            },
+            {
+                "Name": "CSS3",
+                "Description": ""
+            },
+            {
+                "Name": "Foundation4",
+                "Description": ""
+            },
+            {
+                "Name": "Responsive",
+                "Description": ""
+            },
+            {
+                "Name": "Silverlight",
+                "Description": ""
+            }
+        ]
+    },
     {
         "Name": "Sony Rewards",
         "Description": "Involved as a Web Developer to do content updates and page/section creation. Lead developer for upcoming Playstation Account Linking portal.",

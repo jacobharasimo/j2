@@ -1,10 +1,15 @@
-<div class="panel project" ng-mouseenter="flip()" ng-mouseleave="flipFront()" >
+<div class="panel project" ng-mouseenter="flip()" ng-mouseleave="flipFront()" alt="{{project.Name}}" title="{{project.Name}}">
     <div class="card" ng-class="{flip: flipped}">
         <div class="face front" ng-click="flip()">
             <img ng-src="{{project.ImageURL}}"  alt="{{project.Name}}" title="{{project.Name}}" class="portfolioImg  ng-cloak"/>
         </div>
-        <div class="face back" ng-click="Page.setActiveProject(project);moreDetails(project)">
-            <a ng-href="javascript:;"  class="more">
+        <div class="face back" ng-click="Page.setActiveProject(project);moreDetails(project)" >
+        <ul class="check-boxes">
+            <li ng-repeat="item in project.Technologies | limitTo:3">
+                {{item.Name}}
+            </li>
+        </ul>
+            <a ng-href=""  class="more">
                 <span>&plus;</span>
             </a>
         </div>
