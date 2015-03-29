@@ -1,7 +1,107 @@
 [
+	{
+        "Name": "MoPals",
+        "Description": "Involved as Head Of Front-End Development and tasked with completing MoPals site which utilizes facebook connect and shareing to allow companies nation wide to reward users for a variety of social media actions from checkins to reviews.",
+        "Role": "Head Of Front-End Development",
+        "Agency":"MoPals",
+        "Client":"MoPals",
+        "ImageURL": "images/projects/mopals_small.png",
+        "LargeImage": "images/projects/mopals.png",
+        "SiteURL": "https://www.mopals.com/",
+        "Technologies": [
+        	{
+                "Name": "AngularJS",
+                "Description": ""
+            },            
+            {
+                "Name": "SASS/LESS",
+                "Description": ""
+            },
+            {
+                "Name": "Grunt",
+                "Description": ""
+            },
+            {
+                "Name": "Responsive Design",
+                "Description": ""
+            },
+            {
+                "Name": "Rest/Web API",
+                "Description": ""
+            },            
+            {
+                "Name": "Ruby",
+                "Description": ""
+            }
 
+        ]
+    },
+	{
+        "Name": "IsoAcoustics Calculator",
+        "Description": "Involved as a Lead Front End Web Developer tasked with createing a multi-path step based Calculator for audio professionals to select/create custom vibration isolationg stands based on client provided workflow/spreadsheeets.",
+        "Role": "Lead Web Developer",
+        "Agency":"Ecentricarts",
+        "Client":"IsoAcoustics",
+        "ImageURL": "images/projects/iso_acoustics_small.png",
+        "LargeImage": "images/projects/iso_acoustics.png",
+        "SiteURL": "http://isoacoustics-stage.ecentricarts.com/calculator/#/",
+        "Technologies": [
+            {
+                "Name": "AngularJS",
+                "Description": ""
+            },
+            {
+                "Name": "Foundation 5",
+                "Description": ""
+            },           
+            {
+                "Name": "jQuery",
+                "Description": ""
+            },
+            {
+                "Name": "SASS",
+                "Description": ""
+            },
+            {
+                "Name": "Responsive Design",
+                "Description": ""
+            },
+            {
+                "Name": "C#",
+                "Description": ""
+            }
 
-{
+        ]
+    },
+	{
+        "Name": "Munk Foundation",
+        "Description": "Involved as a Lead Front End Web Developer to create a responsive site for a global charitable originzation that is easily editable in Wordpress CMS.",
+        "Role": "Lead Web Developer",
+        "Agency":"Ecentricarts",
+        "Client":"Munk Foundation",
+        "ImageURL": "images/projects/munk_foundation_small.png",
+        "LargeImage": "images/projects/munk_foundation.png",
+        "SiteURL": "http://munkfoundation.com/",
+        "Technologies": [
+            {
+                "Name": "Wordpress",
+                "Description": ""
+            },
+            {
+                "Name": "Foundation 5",
+                "Description": ""
+            },
+            {
+                "Name": "SASS",
+                "Description": ""
+            },
+            {
+                "Name": "Responsive Design",
+                "Description": ""
+            }
+        ]
+    },
+	{
         "Name": "Sico Paints",
         "Description": "Involved as a Front End Web Developer to create a rich responsive modern site including a ~2,000 element color selector.",
         "Role": "Web Developer",
@@ -24,11 +124,11 @@
                 "Description": ""
             },
             {
-                "Name": "Foundation4",
+                "Name": "Foundation 4",
                 "Description": ""
             },
             {
-                "Name": "Responsive",
+                "Name": "Responsive Design",
                 "Description": ""
             },
             {
@@ -39,7 +139,7 @@
     },
     {
         "Name": "Sony Rewards",
-        "Description": "Involved as a Web Developer to do content updates and page/section creation. Lead developer for upcoming Playstation Account Linking portal.",
+        "Description": "Involved as a Front End Web Developer to do content updates and page/section creation. Lead developer for upcoming Playstation Account Linking portal.",
         "Role": "Web Developer",
         "Agency":"Klick Health",
         "Client":"Sony Corporation  of America",
@@ -67,7 +167,7 @@
     },
     {
         "Name": "Sony Insider Specials",
-        "Description": "Involved as a Web Developer creating cross browser emails for IE7+ desktop devices and mobile.",
+        "Description": "Involved as a Front End Web Developer creating cross browser emails for IE7+ desktop devices and mobile.",
         "Role": "Web Developer",
         "Agency":"Klick Health",
         "Client":"Sony Corporation  of America",
@@ -87,7 +187,7 @@
     },
     {
         "Name": "Viagra Canada",
-        "Description": "Involved as a Web Developer to do content updates and javascript work for promotions.",
+        "Description": "Involved as a Front End Web Developer to do content updates and javascript work for promotions.",
         "Role": "Web Developer",
         "Agency":"Klick Health",
         "Client":"Pfizer",
@@ -143,7 +243,7 @@
     },
     {
         "Name": "Start Something With Alesse",
-        "Description": "Involved as a Lead Web Developer. Multi-phased contest site with facebook integration.",
+        "Description": "Involved as a Lead Front End Web Developer to create and maintain a multi-phased contest site with facebook integration.",
         "Role": "Lead Web Developer",
         "Agency":"Klick Health",
         "Client":"Pfizer",
@@ -175,7 +275,7 @@
     },
     {
         "Name": "Art Of Yoga Studio",
-        "Description": "Involved as a Web Developer and designer to create a Wordpress portal and provide client training on how to provide updates.",
+        "Description": "Involved as a Front End Web Developer and designer to create a Wordpress portal and provide client training on how to provide updates.",
         "Role": "Lead Web Developer/Designer",
         "Agency":"None",
         "Client":"Art Of Yoga Studio",
@@ -203,7 +303,7 @@
     },
     {
         "Name": "Rogers Pulse",
-        "Description": "Involved as a Lead Web Developer on a team to upgrade an existing .net site to web 2.0 standards as well as add many client request features. Rogesr Pulse in an internal Project management Portal.",
+        "Description": "Involved as a Lead Front End Web Developer on a team to upgrade an existing .NET site to web 2.0 standards as well as add many client request features. Rogesr Pulse in an internal Project management Portal.",
         "Role": "Lead Web Developer",
         "Agency":"Klick Health",
         "Client":"Rogers Communications",
@@ -212,7 +312,7 @@
         "SiteURL": "",
         "Technologies": [
             {
-                "Name": ".net",
+                "Name": ".NET",
                 "Description": ""
             },
             {
@@ -235,7 +335,7 @@
     },
     {
         "Name": "Biogen Idec - The Hub",
-        "Description": "Involved as a Lead Web Developer on a team creating a global file management system.",
+        "Description": "Involved as a Lead Front End Web Developer on a team creating a global file management system.",
         "Role": "Lead Web ",
         "Agency":"Klick Health",
         "Client":"Biogen Idec",
@@ -256,7 +356,7 @@
                 "Description": ""
             },
             {
-                "Name": "Mobile Responsive",
+                "Name": "Responsive Design",
                 "Description": ""
             },
             {
@@ -275,7 +375,7 @@
     },
     {
         "Name": "UR-Channel",
-        "Description": "Involved as a Web Developer and designer to create a rich site.",
+        "Description": "Involved as a Front End Web Developer and designer to create a rich site.",
         "Role": "Lead Web Developer/Designer",
         "Agency":"None",
         "Client":"UR-Channel",
@@ -288,7 +388,7 @@
                 "Description": ""
             },
             {
-                "Name": ".net",
+                "Name": ".NET",
                 "Description": ""
             },
             {
@@ -311,7 +411,7 @@
     },
     {
         "Name": "Klick - iConnect",
-        "Description": "Involved as a Web Developer to create inovate portal to showcase a new iOS platform/app.",
+        "Description": "Involved as a Front End Web Developer to create inovate portal to showcase a new iOS platform/app.",
         "Role": "Web Developer",
         "Agency":"Klick Health",
         "Client":"Klick Health",
@@ -339,7 +439,7 @@
     },
     {
         "Name": "RSA Canada Mobile App",
-        "Description": "Involved as a Web Developer to create a cross platform (iOS, BlackBerry, Android) mobile app",
+        "Description": "Involved as a Front End Web Developer to create a cross platform (iOS, BlackBerry, Android) mobile app",
         "Role": "Web Developer",
         "Agency":"K2 Digital",
         "Client":"Royal & Sun Alliance Canada",
@@ -367,7 +467,7 @@
     },
     {
         "Name": "Telus - Loopbonding",
-        "Description": "Involved as a Lead Web Developer to create an internal blackberry only application allowing installers to reference a database of devices for troubleshooting purposes.",
+        "Description": "Involved as a Lead Front End Web Developer to create an internal blackberry only application allowing installers to reference a database of devices for troubleshooting purposes.",
         "Role": "Web Developer",
         "Agency":"Klick Learning Solutions",
         "Client":"Telus",
@@ -395,7 +495,7 @@
     },
     {
         "Name": "Amitiza.com - Desktop",
-        "Description": "Involved as a Web Developer to process content updates and page creation for client.",
+        "Description": "Involved as a Front End Web Developer to process content updates and page creation for client.",
         "Role": "Web Developer",
         "Agency":"Klick",
         "Client":"Takeda",
@@ -408,6 +508,10 @@
                 "Description": ""
             },
             {
+                "Name": "Mobile Responsive",
+                "Description": ""
+            },
+            {
                 "Name": "jQuery",
                 "Description": ""
             },
@@ -416,14 +520,14 @@
                 "Description": ""
             },
             {
-                "Name": ".net",
+                "Name": ".NET",
                 "Description": ""
             }
         ]
     },
     {
         "Name": "Amitiza.com - Mobile",
-        "Description": "Involved as a Lead Web Developer to create a mobile responsive site.",
+        "Description": "Involved as a Lead Front End Web Developer to create a mobile responsive site.",
         "Role": "Lead Web Developer",
         "Agency":"Klick",
         "Client":"Takeda",
@@ -444,18 +548,18 @@
                 "Description": ""
             },
             {
-                "Name": ".net",
+                "Name": ".NET",
                 "Description": ""
             },
             {
-                "Name": "FoundationJS",
+                "Name": "Foundation 3",
                 "Description": ""
             }
         ]
     },
     {
         "Name": "Turn To Help",
-        "Description": "Involved as a Web Developer to create a rich Cleo Award Winning HTML5 website.",
+        "Description": "Involved as a Front End Web Developer to create a rich Cleo Award Winning HTML5 website.",
         "Role": "Web Developer",
         "Agency":"Klick",
         "Client":"Reckitt Benckiser",
@@ -476,14 +580,14 @@
                 "Description": ""
             },
             {
-                "Name": ".net",
+                "Name": ".NET",
                 "Description": ""
             }
         ]
     },
     {
         "Name": "My Multiple Myeloma",
-        "Description": "Involved as a Web Developer in creation and content update of a HTML5 rich Wordpress site.",
+        "Description": "Involved as a Front End Web Developer in creation and content update of a HTML5 rich Wordpress site.",
         "Role": "Web Developer",
         "Agency":"Klick",
         "Client":"Millennium Pharmaceuticals Inc.",
@@ -511,7 +615,7 @@
     },
     {
         "Name": "VELCADE",
-        "Description": "Involved as a Web Developer processing content updates and new page creation.",
+        "Description": "Involved as a Front End Web Developer processing content updates and new page creation.",
         "Role": "Web Developer",
         "Agency":"Klick",
         "Client":"Millennium Pharmaceuticals Inc.",
@@ -560,7 +664,7 @@
                 "Description": ""
             },
             {
-                "Name": ".net",
+                "Name": ".NET",
                 "Description": ""
             },
             {

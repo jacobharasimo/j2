@@ -18,6 +18,12 @@
         "SiteURL": "http://www.pfizer.ca/en/home/?"
     },
     {
+        "Name": "MoPals",
+        "Description": "",
+        "ImageURL": "images/clients/mopals.png",
+        "SiteURL": "http://www.mopals.com/"
+    },
+    {
         "Name": "Art Of Yoga Studio",
         "Description": "",
         "ImageURL": "images/clients/art_of_yoga_studio.png",

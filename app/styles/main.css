@@ -23,37 +23,37 @@ ul.checkmark li {
 }
 
 .more {
-    background-color: #2CA6CB;
-    width: 64px;
-    height: 64px;
+    color:#0A0A0A;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -32px 0 0 -32px;
-    border-radius: 40px;
-    font-weight: 900;
-    font-size: 3em;
+    bottom: 1em;
+    right: 1em;    
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     -webkit-transition: all .2s ease-in-out;
 }
 
-.block-grid li a.more:hover {
+.block-grid li a.more:hover{color:inherit;}
+.block-grid li a.more:hover span {
     opacity: .8;
+
 }
 
-.block-grid li a.more {
-    margin: -32px 0 0 -32px;
+.block-grid li a.more span{    
     opacity: .5;
 }
 
 .more span {
+    background-color: #2CA6CB;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 3em;
+    font-weight: 900;
+    font-size: 12px;
     color: white;
-    height: 64px;
-    width: 64px;
-    line-height: 64px;
+    line-height: 1.5em;
     text-align: center;
-    display: block
+    display: inline-block;
+    text-shadow: 1px 1px 1px #0A0A0A;
 }
 
 .panel.project {
@@ -5272,4 +5272,8 @@ ul.check-boxes {
 ul.check-boxes li {
     background: url(/images/tick.png) no-repeat 0 50%;
     padding-left: 2em;
+    padding-top:0;padding-bottom:0;
+}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
 }

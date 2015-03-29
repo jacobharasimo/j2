@@ -1,18 +1,35 @@
 <div class="row">
+
     <div class="columns twelve">
+
         <ul class="block-grid four-up mobile-two-up languageGrid ">
-            <li ng-repeat="language in Languages">
-                <a href="javascript:;" ng-click="languageDetails(language)">
+
+            <li ng-repeat="language in Languages" ng-cloak class="ng-cloak">
+
+                <a href="" ng-click="languageDetails(language)">
+
                     <img class="language  ng-cloak" ng-src="{{language.ImageURL}}" alt="{{language.Name}}" title="{{language.Name}}"/>
+
                 </a>
+
             </li>
+
         </ul>
 
+
+
     </div>
+
 </div>
+
 <div id="langulageDetail" class="reveal-modal expand">
+
     <h2 class="ng-cloak">{{ActiveLanguage.Name}}</h2>
+
     <p class="ng-cloak">{{ActiveLanguage.Description}}</p>
+
     <a ng-href="{{ActiveLanguage.SiteURL}}"  taget="_blank" class="button small">More Information</a>
+
     <a class="close-reveal-modal">&#215;</a>
+
 </div>
